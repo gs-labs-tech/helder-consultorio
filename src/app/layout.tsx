@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Roboto, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const geistSans = Roboto({
+  variable: "--font-roboto",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const geistMono = Roboto_Mono({
+  variable: "--font-roboto-mono",
   subsets: ["latin"],
 });
 
@@ -27,7 +27,33 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="min-w-screen flex">
+          <nav className="grid grid-cols-[min-content_1fr] items-center w-full py-4 px-2 text-white bg-primary fixed top-0 left-0">
+            <p className="col-span-1 w-[22.5rem] ml-2 text-xl font-semibold block justify-self-start whitespace-nowrap">
+              Helder B.
+            </p>
+
+            <div className="col-span-1 w-[calc(100%-22.5rem)] flex items-center justify-center">
+              <ul className="flex space-x-4 ml-4">
+                <li>
+                  <a href="#home">Sobre o profissional</a>
+                </li>
+                <li>
+                  <a href="#about">Consultório</a>
+                </li>
+                <li>
+                  <a href="#services">Formação</a>
+                </li>
+                <li>
+                  <a href="#contact">Recomendações</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div className="w-full h-full grid place-content-center">
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );
