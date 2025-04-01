@@ -38,13 +38,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${displaySans.variable} ${displayMono.variable} antialiased`}
+        className={`${displaySans.variable} ${displayMono.variable} antialiased bg-background`}
       >
-        <div className="font-sans w-screen h-screen text-sm overflow-y-auto overflow-y-hidden">
+        <div className="flex flex-col font-sans w-screen h-screen text-sm overflow-y-auto scroll-smoth">
           <NavigationTopbar />
-          <div className="w-full bg-center bg-background bg-no-repeat bg-cover bg-blend-color bg-opacity-50 h-full flex flex-col">
-            {children}
-          </div>
+
+          <div>{children}</div>
         </div>
       </body>
     </html>
