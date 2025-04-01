@@ -5,7 +5,7 @@ import { ProfessionalBackgroundSection } from "@/components/professional-backgro
 
 export default function Home() {
   return (
-    <main className=" overflow-y-hidden">
+    <main className="overflow-y-hidden">
       <HomeSection />
       <AboutSection />
       <OfficeSection />

@@ -40,10 +40,10 @@ export default function RootLayout({
       <body
         className={`${displaySans.variable} ${displayMono.variable} antialiased bg-background`}
       >
-        <div className="flex flex-col font-sans w-screen h-screen text-sm overflow-y-auto scroll-smoth">
+        <div className="flex flex-col font-sans w-screen h-screen text-sm">
           <NavigationTopbar />
 
-          <div>{children}</div>
+          <div className="overflow-y-auto scroll-smooth">{children}</div>
         </div>
       </body>
     </html>
