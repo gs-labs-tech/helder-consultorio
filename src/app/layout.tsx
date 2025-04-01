@@ -1,8 +1,8 @@
 import "./globals.css";
 
-import type { Metadata } from "next";
-import { Roboto, Roboto_Mono, Gabriela } from "next/font/google";
 import { NavigationTopbar } from "@/components/navigation/topbar";
+import type { Metadata } from "next";
+import { Roboto, Roboto_Mono } from "next/font/google";
 
 const displaySans = Roboto({
   weight: "400",
@@ -40,9 +40,9 @@ export default function RootLayout({
       <body
         className={`${displaySans.variable} ${displayMono.variable} antialiased`}
       >
-        <div className="font-sans w-screen h-screen text-sm overflow-y-auto">
+        <div className="font-sans w-screen h-screen text-sm overflow-y-auto overflow-y-hidden">
           <NavigationTopbar />
-          <div className="w-full bg-center bg-background bg-no-repeat bg-cover bg-blend-color bg-opacity-50 h-full flex flex-col overflow-y-hidden">
+          <div className="w-full bg-center bg-background bg-no-repeat bg-cover bg-blend-color bg-opacity-50 h-full flex flex-col">
             {children}
           </div>
         </div>

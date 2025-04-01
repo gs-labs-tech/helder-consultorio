@@ -1,33 +1,58 @@
-import { FacebookIcon, InstagramIcon } from "lucide-react";
-import { Button } from "../ui/button";
-
 export function NavigationTopbar() {
   return (
     <nav className="py-4 px-2 border-b border-border/50 sticky backdrop-blur supports-[backdrop-filter]:bg-background/70 top-0 w-full">
-      <div className="flex justify-between items-center container">
-        <p className="col-span-1 w-[22.5rem] ml-2 text-lg font-semibold block justify-self-start whitespace-nowrap">
-          Helder B.
-        </p>
+      <div className="flex justify-center items-center container">
         <div className="col-span-1 w-[calc(100%-14rem)] flex items-center justify-center">
-          <ul className="flex space-x-4 ml-4">
+          <ul className="flex space-x-6 ml-4">
             <li>
-              <a href="#home">Sobre o profissional</a>
+              <a
+                className="hover:border-b border-foreground transition-all ease-in-out duration-100"
+                href="#home"
+              >
+                Início
+              </a>
             </li>
             <li>
-              <a href="#about">Consultório</a>
+              <a
+                className="hover:border-b border-foreground transition-all ease-in-out duration-100"
+                href="#about"
+              >
+                Sobre o profissional
+              </a>
             </li>
             <li>
-              <a href="#services">Formação</a>
+              <a
+                className="hover:border-b border-foreground transition-all ease-in-out duration-100"
+                href="#office"
+              >
+                Consultório
+              </a>
             </li>
             <li>
-              <a href="#contact">Recomendações</a>
+              <a
+                className="hover:border-b border-foreground transition-all ease-in-out duration-100"
+                href="#background"
+              >
+                Formação
+              </a>
+            </li>
+            <li>
+              <a
+                className="hover:border-b border-foreground transition-all ease-in-out duration-100"
+                href="#reccomendations"
+              >
+                Recomendações
+              </a>
+            </li>
+            <li>
+              <a
+                className="hover:border-b border-foreground transition-all duration-300"
+                href="#feedbacks"
+              >
+                Depoimentos
+              </a>
             </li>
           </ul>
-        </div>
-        <div className="flex items-center justify-end gap-2 w-[22.5rem]">
-          <Button variant="outline" size="icon">
-            <InstagramIcon />
-          </Button>
         </div>
       </div>
     </nav>
