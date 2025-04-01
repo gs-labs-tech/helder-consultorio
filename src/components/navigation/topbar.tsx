@@ -31,7 +31,7 @@ export function NavigationTopbar() {
             <li>
               <a
                 className="hover:border-b border-foreground transition-all ease-in-out duration-100"
-                href="#background"
+                href="#professional-background"
               >
                 Formação
               </a>

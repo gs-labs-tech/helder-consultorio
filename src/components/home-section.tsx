@@ -4,7 +4,7 @@ import { SproutIcon } from "lucide-react";
 
 export function HomeSection() {
   return (
-    <div
+    <section
       id="home"
       className="w-full items-center justify-center text-white bg-[url(/background.jpg)] h-[85vh] bg-center bg-black/70 bg-no-repeat bg-cover bg-blend-color bg-opacity-50 border-b flex flex-col"
     >
@@ -13,6 +13,6 @@ export function HomeSection() {
       <span className="text-base tracking-tight">
         Psicoterapeuta & Psicólogo
       </span>
-    </div>
+    </section>
   );
 }
