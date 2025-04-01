@@ -1,16 +1,29 @@
-import type { Metadata } from "next";
-import { Roboto, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Roboto({
-  variable: "--font-roboto",
+import type { Metadata } from "next";
+import { Roboto, Roboto_Mono, Gabriela } from "next/font/google";
+import { NavigationTopbar } from "@/components/navigation/topbar";
+
+const displaySans = Roboto({
+  weight: "400",
+  variable: "--font-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Roboto_Mono({
-  variable: "--font-roboto-mono",
+const displayMono = Roboto_Mono({
+  weight: "400",
+  variable: "--font-mono",
   subsets: ["latin"],
 });
+// const geistSans = Inter({
+//   variable: "--font-inter",
+//   subsets: ["latin"],
+// });
+
+// const geistMono = DM_Sans({
+//   variable: "--font-dm-sans",
+//   subsets: ["latin"],
+// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,32 +38,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${displaySans.variable} ${displayMono.variable} antialiased`}
       >
-        <div className="min-w-screen flex">
-          <nav className="grid grid-cols-[min-content_1fr] items-center w-full py-4 px-2 text-white bg-primary fixed top-0 left-0">
-            <p className="col-span-1 w-[22.5rem] ml-2 text-xl font-semibold block justify-self-start whitespace-nowrap">
-              Helder B.
-            </p>
-
-            <div className="col-span-1 w-[calc(100%-22.5rem)] flex items-center justify-center">
-              <ul className="flex space-x-4 ml-4">
-                <li>
-                  <a href="#home">Sobre o profissional</a>
-                </li>
-                <li>
-                  <a href="#about">Consultório</a>
-                </li>
-                <li>
-                  <a href="#services">Formação</a>
-                </li>
-                <li>
-                  <a href="#contact">Recomendações</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <div className="w-full h-full grid place-content-center">
+        <div className="font-sans w-screen h-screen text-sm overflow-y-auto">
+          <NavigationTopbar />
+          <div className="w-full bg-center bg-background bg-no-repeat bg-cover bg-blend-color bg-opacity-50 h-full flex flex-col overflow-y-hidden">
             {children}
           </div>
         </div>
