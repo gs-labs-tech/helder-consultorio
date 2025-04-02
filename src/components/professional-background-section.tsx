@@ -14,24 +14,22 @@ export function ProfessionalBackgroundSection() {
         <div className="w-10/12 h-fit flex justify-center items-center text-center flex-col">
           <ol className="grid grid-cols-1 gap-y-10">
             {professionalBackground.map((item) => (
-              <div>
-                <li
-                  key={item.text}
-                  className="flex flex-row items-center justify-center text-md gap-2 h-fit"
-                >
-                  <p className="text-center font-medium text-lg">{item.text}</p>
+              <li
+                key={item.text}
+                className="flex flex-row items-center justify-center text-md gap-2 h-fit"
+              >
+                <p className="text-center font-medium text-lg">{item.text}</p>
 
-                  {item.redirectUrl && (
-                    <a
-                      href={item.redirectUrl}
-                      target="_blank"
-                      className="flex items-center text-lg font-bold underline"
-                    >
-                      Saiba Mais
-                    </a>
-                  )}
-                </li>
-              </div>
+                {item.redirectUrl && (
+                  <a
+                    href={item.redirectUrl}
+                    target="_blank"
+                    className="flex items-center text-lg font-bold underline"
+                  >
+                    Saiba Mais
+                  </a>
+                )}
+              </li>
             ))}
           </ol>
         </div>

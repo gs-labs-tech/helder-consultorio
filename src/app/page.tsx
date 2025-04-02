@@ -1,4 +1,5 @@
 import { AboutSection } from "@/components/about-section";
+import { AppointmentsSection } from "@/components/appointments-section";
 import { HomeSection } from "@/components/home-section";
 import { OfficeSection } from "@/components/office-section";
 import { ProfessionalBackgroundSection } from "@/components/professional-background-section";
@@ -10,6 +11,7 @@ export default function Home() {
       <AboutSection />
       <OfficeSection />
       <ProfessionalBackgroundSection />
+      <AppointmentsSection />
     </main>
   );
 }

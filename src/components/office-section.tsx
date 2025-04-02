@@ -8,7 +8,7 @@ export function OfficeSection() {
     >
       <h1 className="text-4xl font-bold mt-20">Consultório</h1>
 
-      <div className="w-full flex mb-14 flex-row-reverse items-center justify-evenly text-white h-fit bg-black bg-no-repeat bg-cover bg-blend-color bg-opacity-50 border-b">
+      <div className="w-full flex mb-14 flex-row-reverse items-center justify-evenly text-white h-fit bg-black bg-no-repeat bg-cover bg-blend-color bg-opacity-50">
         <img
           src="/background-2.jpg"
           className="w-[28rem] h-[30rem] object-cover rounded-lg"
