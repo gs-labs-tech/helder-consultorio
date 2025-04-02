@@ -15,15 +15,6 @@ const displayMono = Roboto_Mono({
   variable: "--font-mono",
   subsets: ["latin"],
 });
-// const geistSans = Inter({
-//   variable: "--font-inter",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = DM_Sans({
-//   variable: "--font-dm-sans",
-//   subsets: ["latin"],
-// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
