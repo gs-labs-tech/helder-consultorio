@@ -46,16 +46,8 @@ export function NavigationTopbar() {
             </li>
             <li>
               <a
-                className="hover:border-b border-foreground transition-all ease-in-out duration-100"
-                href="#reccomendations"
-              >
-                Recomendações
-              </a>
-            </li>
-            <li>
-              <a
                 className="hover:border-b border-foreground transition-all duration-300"
-                href="#feedbacks"
+                href="#testimonials"
               >
                 Depoimentos
               </a>

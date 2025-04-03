@@ -1,6 +1,6 @@
 "use client";
 
-import { professionalBackground } from "./static/professional-background";
+import { professionalBackground } from "../static/professional-background";
 
 export function ProfessionalBackgroundSection() {
   return (
