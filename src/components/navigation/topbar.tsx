@@ -47,9 +47,9 @@ export function NavigationTopbar() {
             <li>
               <a
                 className="hover:border-b border-foreground transition-all duration-300"
-                href="#testimonials"
+                href="#reccomendations"
               >
-                Depoimentos
+                Recomendações
               </a>
             </li>
           </ul>
