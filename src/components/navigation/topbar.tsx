@@ -1,6 +1,6 @@
 export function NavigationTopbar() {
   return (
-    <nav className="py-4 px-2 border-b border-border/50 sticky backdrop-blur supports-[backdrop-filter]:bg-background/70 top-0 w-full">
+    <nav className="py-4 z-50 px-2 border-b border-white/10 sticky backdrop-blur supports-[backdrop-filter]:bg-black/20 top-0 w-full">
       <div className="flex justify-center items-center container">
         <div className="col-span-1 w-[calc(100%-14rem)] flex items-center justify-center">
           <ul className="flex space-x-6 ml-4">
