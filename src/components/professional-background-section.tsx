@@ -4,56 +4,48 @@ import {
 } from "./static/professional-background";
 import { Button } from "./ui/button";
 import * as Card from "./ui/card";
+import { Section } from "./ui/section";
 import { Timeline } from "./ui/timeline";
 
 export function ProfessionalBackgroundSection() {
   return (
-    <section
-      id="professional-background"
-      className="container w-full flex flex-col items-center justify-center"
-    >
-      <h1 className="text-4xl font-bold mt-20 pb-10">Formações e Dedicações</h1>
+    <Section id="professional-background" title="Formações e Dedicações">
+      <div className="flex flex-col gap-4 px-8">
+        <div className="grid grid-cols-2 gap-4">
+          {studyGroupsData.map((studyGroup) => (
+            <Card.Card
+              key={studyGroup.text}
+              className="border border-white/10 shadow-sm text-white bg-card/10"
+            >
+              <Card.CardContent className="flex flex-col justify-center items-center gap-3 px-14">
+                <p className="text-center text-base h-12">{studyGroup.text}</p>
 
-      <div className="grid grid-cols-1 gap-16 items-center text-white bg-center bg-background bg-no-repeat bg-cover bg-blend-color bg-opacity-50 border-b pb-10">
-        <div className="w-[55vw] h-fit flex justify-center items-center flex-col">
-          <div className="grid grid-cols-2 gap-4">
-            {studyGroupsData.map((studyGroup) => (
-              <Card.Card
-                key={studyGroup.text}
-                className="border border-white/10 shadow-sm text-white bg-card/10"
-              >
-                <Card.CardContent className="flex flex-col justify-center items-center gap-3 px-14">
-                  <p className="text-center text-base h-12">
-                    {studyGroup.text}
-                  </p>
-
-                  <Button className="w-fit" variant="secondary" asChild>
-                    <a
-                      href={studyGroup.redirectUrl}
-                      target="_blank"
-                      className="flex items-center text-lg font-bold"
-                    >
-                      Saiba Mais
-                    </a>
-                  </Button>
-                </Card.CardContent>
-              </Card.Card>
-            ))}
-          </div>
-
-          <div>
-            <Timeline data={timelineProfessionalBackground} />
-          </div>
-
-          <span className="text-base text-justify">
-            Além da prática clínica e estudos cotidianos que a fundamentam, e a
-            experiência com supervisão a psicoterapeutas, dedica-se também à
-            coordenação do GEPO como coordenador geral e também às suas
-            respectivas atividades, bem como ministra dois Grupos de Estudos
-            através desta instituição
-          </span>
+                <Button className="w-fit" variant="secondary" asChild>
+                  <a
+                    href={studyGroup.redirectUrl}
+                    target="_blank"
+                    className="flex items-center text-lg font-bold"
+                  >
+                    Saiba Mais
+                  </a>
+                </Button>
+              </Card.CardContent>
+            </Card.Card>
+          ))}
         </div>
+
+        <div>
+          <Timeline data={timelineProfessionalBackground} />
+        </div>
+
+        <span className="text-base text-justify">
+          Além da prática clínica e estudos cotidianos que a fundamentam, e a
+          experiência com supervisão a psicoterapeutas, dedica-se também à
+          coordenação do GEPO como coordenador geral e também às suas
+          respectivas atividades, bem como ministra dois Grupos de Estudos
+          através desta instituição
+        </span>
       </div>
-    </section>
+    </Section>
   );
 }
