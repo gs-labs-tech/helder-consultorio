@@ -1,4 +1,4 @@
-import { TimelineData } from "../ui/timeline";
+import { TimelineData } from "../components/ui/timeline";
 
 export const studyGroupsData = [
   {
@@ -14,39 +14,31 @@ export const studyGroupsData = [
 export const timelineProfessionalBackground: TimelineData[] = [
   {
     time: "Desde 2024",
-    title:
-      "Membro do Grupo de Estudos de Winnicott: Playground Psicanalítico - ministrado por Ricardo Telles de Deus, entre outros cursos de aprimoramento e extensão",
-    description: "...e mais de 15 anos de experiência com análise pessoal;",
+    title: "Membro do Grupo de Estudos de Winnicott: Playground Psicanalítico",
+    description: "Ministrado por Ricardo Telles de Deus.",
   },
   {
     time: "2023",
-    title:
-      "Cursou “Para além da Contratransferência: o analista implicado” com Gina Tamburrino pelo ISS",
-  },
-  {
-    time: "2020 a 2023",
-    title:
-      "Formação em Psicanálise pelo Instituto de Psicanálise da Sociedade Brasileira de Psicanálise de São Paulo (SBPSP)",
-  },
-  {
-    time: "2020 a 2023",
-    title:
-      "Formação em Psicoterapia Breve Psicanalítica pelo Instituto de Psicanálise da Sociedade Brasileira de Psicanálise de São Paulo (SBPSP)",
+    title: "Curso 'Para além da Contratransferência: o analista implicado'",
+    description:
+      "Realizado com Gina Tamburrino pelo Instituto Sedes Sapientiae (ISS).",
   },
   {
     time: "Desde 2020",
     title:
       "Coordenador do Grupo de Estudos de Psicanálise de Ourinhos e região (GEPO)",
+    description: "Membro desde 2009.",
   },
   {
     time: "2015 a 2019",
-    title:
-      "Formação em Psicanálise pelo Instituto Sedes Sapientiae (ISS) – São Paulo, SP",
+    title: "Formação em Psicanálise",
+    description:
+      "Realizada no Instituto Sedes Sapientiae (ISS), São Paulo, SP.",
   },
   {
     time: "2012 a 2013",
-    title:
-      "Especialização em Psicologia Clínica Psicanalítica pela Universidade Estadual de Londrina, PR (UEL)",
+    title: "Especialização em Psicologia Clínica Psicanalítica",
+    description: "Pela Universidade Estadual de Londrina, PR (UEL).",
   },
   {
     time: "Desde 2009",
@@ -55,6 +47,13 @@ export const timelineProfessionalBackground: TimelineData[] = [
   },
   {
     time: "2006 a 2010",
-    title: "Psicólogo Clínico pela UniFio",
+    title: "Psicólogo Clínico",
+    description: "Formado pela UniFio.",
+  },
+  {
+    time: "+15 anos de experiência",
+    title: "Experiência clínica e formação contínua",
+    description:
+      "Diversos cursos de aprimoramento e extensão, com mais de 15 anos de prática em análise pessoal.",
   },
 ];
