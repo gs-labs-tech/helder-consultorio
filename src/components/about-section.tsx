@@ -4,15 +4,17 @@ export function AboutSection() {
   return (
     <section
       id="about"
-      className="w-full flex flex-col items-center justify-center"
+      className="container w-full flex flex-col items-center justify-center"
     >
       <h1 className="text-4xl font-bold mt-20">Helder Barbosa</h1>
 
-      <div className="w-full flex flex-row items-center justify-evenly text-white h-fit bg-center bg-background bg-no-repeat bg-cover bg-blend-color bg-opacity-50 border-b">
-        <img
-          src="/helder.jpg"
-          className="w-[28rem] h-[30rem] object-cover rounded-lg"
-        />
+      <div className="grid grid-cols-2 gap-16 text-white h-fit bg-center bg-background bg-no-repeat bg-cover bg-blend-color bg-opacity-50 border-b">
+        <div className="flex justify-center items-center">
+          <img
+            src="/helder.jpg"
+            className="w-[28rem] h-[30rem] object-cover rounded-lg shadow-sm border border-border/80"
+          />
+        </div>
 
         <div className="w-[30rem] h-[40rem] flex justify-center gap-8 flex-col">
           <p className="text-lg font-normal">
