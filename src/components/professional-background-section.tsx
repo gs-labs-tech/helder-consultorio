@@ -1,7 +1,7 @@
 import {
   studyGroupsData,
   timelineProfessionalBackground,
-} from "./static/professional-background";
+} from "../static/professional-background";
 import { Button } from "./ui/button";
 import * as Card from "./ui/card";
 import { Section } from "./ui/section";
