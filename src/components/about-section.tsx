@@ -11,19 +11,19 @@ export function AboutSection() {
           />
         </div>
 
-        <div className=" flex justify-center gap-8 flex-col">
-          <p className="text-lg font-normal">
+        <div className="flex justify-center gap-8 flex-col">
+          <p className="text-base font-normal">
             Psicólogo Clínico e Psicanalista dedicado à prática clínica com
             adolescentes e adultos nas modalidades presencial e online, desde
             2011.
           </p>
 
-          <p className="text-lg font-normal">
+          <p className="text-base font-normal">
             Dedica-se também ao desenvolvimento de Grupos de Estudos e
             supervisões.
           </p>
 
-          <p className="text-lg font-normal">
+          <p className="text-base font-normal">
             Suas formações são por instituições reconhecidas e prestigiadas pelo
             MEC, Federação Brasileira de Psicanálise (FEBRAPSI) e Movimento
             Articulação das Entidades Psicanalíticas.
