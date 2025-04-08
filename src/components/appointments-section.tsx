@@ -1,20 +1,19 @@
-"use client";
+import { Section } from "./ui/section";
 
 export function AppointmentsSection() {
   return (
-    <section
+    <Section
       id="appointments"
-      className="w-full flex flex-col items-center justify-center bg-black pb-20"
+      title="Sobre os atendimentos"
+      className="bg-black"
     >
-      <h1 className="text-4xl font-bold mt-20">Sobre os atendimentos</h1>
-
-      <div className="w-full flex flex-col mb-14 mt-10 items-center justify-center text-white bg-black bg-no-repeat bg-cover bg-blend-color bg-opacity-50">
-        <div className="h-fit w-[95%] flex flex-col gap-10 items-center justify-center text-center">
+      <div className="w-full flex flex-col mb-14 mt-10 items-center justify-center text-white bg-no-repeat bg-cover bg-blend-color bg-opacity-50">
+        <div className="h-fit flex flex-col gap-10 items-center text-center">
           <h3 className="text-2xl font-semibold">
             Por que as pessoas procuram psicoterapia?
           </h3>
 
-          <p className="text-[16px] font-normal">
+          <p className="text-base font-normal">
             Como é de se deduzir: as pessoas procuram psicoterapia porque estão
             em sofrimento intenso (sintomas explícitos) e/ou estão muito
             insatisfeitas com a própria vida (crises existenciais). De forma
@@ -22,8 +21,8 @@ export function AppointmentsSection() {
             forma:
           </p>
 
-          <ul className="list-disc list-inside flex flex-col items-center justify-center gap-8 w-full">
-            <li className="text-[16px] font-normal w-[90%]">
+          <ul className="list-disc list-inside flex flex-col text-justify justify-center gap-8 w-full">
+            <li className="text-base font-normal">
               A primeira (sintomas explícitos) é quando a condição está crítica.
               Estas pessoas se encontram em sofrimentos ou crises intensas que
               as paralisam e/ou as submetem a variadas limitações no viver
@@ -35,7 +34,7 @@ export function AppointmentsSection() {
               necessidades básicas da vida.
             </li>
 
-            <li className="text-[16px] font-normal w-[90%]">
+            <li className="text-base font-normal">
               Sobre as crises existenciais, as observamos através de queixas de
               diminuição dos ânimos com a vida, os “tanto faz”, apáticos; não
               necessariamente os depressivos – esta queixa é comum em pessoas
@@ -53,7 +52,7 @@ export function AppointmentsSection() {
               conseguem reconhecer, pois, ‘não habitam o próprio Ser.’
             </li>
 
-            <li className="text-[16px] font-normal w-[90%]">
+            <li className="text-base font-normal">
               Há também outro perfil de demandas: os que procuram psicoterapia
               como parte do processo de sua formação psicanalítica; que é
               indispensável.
@@ -61,15 +60,17 @@ export function AppointmentsSection() {
           </ul>
         </div>
 
-        <div className="h-fit w-[95%] flex flex-col mt-10 gap-10 items-center justify-center text-center">
-          <h3 className="text-2xl font-semibold">Como o trabalho acontece?</h3>
+        <div className="h-fit flex flex-col mt-10 gap-10 justify-center text-justify">
+          <h3 className="text-2xl font-semibold text-center">
+            Como o trabalho acontece?
+          </h3>
 
-          <p className="text-[16px] font-normal">
+          <p className="text-base font-normal">
             De forma muito simples: conversando. E, claro, mantendo um bom
             relacionamento com empatia e sensibilidade.
           </p>
 
-          <p className="text-[16px] font-normal flex flex-col items-center justify-center gap-2">
+          <p className="text-base font-normal flex flex-col justify-center gap-2">
             <i className="mb-1 font-semibold">
               "Mas, apenas conversando? Posso conversar com um amigo, parente
               etc."
@@ -83,7 +84,7 @@ export function AppointmentsSection() {
             uma conversa de análise).
           </p>
 
-          <p className="text-[16px] font-normal">
+          <p className="text-base font-normal">
             Imaginem: uma criança na cozinha imita os mesmos movimentos de sua
             mãe que prepara o bolo. Manuseia farinha, fermento, cacau, morango,
             açúcar, água, etc. Se não estiver sob orientação, a criança faz
@@ -99,6 +100,6 @@ export function AppointmentsSection() {
           </p>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

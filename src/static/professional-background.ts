@@ -1,4 +1,6 @@
-export const professionalBackground = [
+import { TimelineData } from "../components/ui/timeline";
+
+export const studyGroupsData = [
   {
     text: `Grupo de Estudos “Introdução ao pensamento clínico de Donald Woods Winnicott: estudos da obra”.`,
     redirectUrl: "https://forms.gle/t3ySLCKFfbLNtBjD7",
@@ -7,31 +9,51 @@ export const professionalBackground = [
     text: `Grupo de Estudos “A metapsicologia freudiana e kleiniana”.`,
     redirectUrl: "https://forms.gle/J1ZyY9kqUaB8crE97",
   },
+];
+
+export const timelineProfessionalBackground: TimelineData[] = [
   {
-    text: `Psicólogo Clínico pela UniFio [2006 a 2010]`,
+    time: "Desde 2024",
+    title: "Membro do Grupo de Estudos de Winnicott: Playground Psicanalítico",
+    description: "Ministrado por Ricardo Telles de Deus.",
   },
   {
-    text: `Especialização em Psicologia Clínica Psicanalítica pela Universidade Estadual de Londrina, PR (UEL) [2012 a 2013];`,
+    time: "2023",
+    title: "Curso 'Para além da Contratransferência: o analista implicado'",
+    description:
+      "Realizado com Gina Tamburrino pelo Instituto Sedes Sapientiae (ISS).",
   },
   {
-    text: `Formação em Psicanálise pelo Instituto Sedes Sapientiae (ISS) – São Paulo, SP [2015 a 2019];`,
+    time: "Desde 2020",
+    title:
+      "Coordenador do Grupo de Estudos de Psicanálise de Ourinhos e região (GEPO)",
+    description: "Membro desde 2009.",
   },
   {
-    text: `Formação em Psicanálise pelo Instituto de Psicanálise da Sociedade Brasileira de Psicanálise de São Paulo (SBPSP) [2020 a 2023];`,
+    time: "2015 a 2019",
+    title: "Formação em Psicanálise",
+    description:
+      "Realizada no Instituto Sedes Sapientiae (ISS), São Paulo, SP.",
   },
   {
-    text: `Cursou “Para além da Contratransferência: o analista implicado” com Gina Tamburrino pelo ISS [2023];`,
+    time: "2012 a 2013",
+    title: "Especialização em Psicologia Clínica Psicanalítica",
+    description: "Pela Universidade Estadual de Londrina, PR (UEL).",
   },
   {
-    text: `Formação em Psicoterapia Breve Psicanalítica pelo Instituto de Psicanálise da Sociedade Brasileira de Psicanálise de São Paulo (SBPSP) [2020 a 2023];`,
+    time: "Desde 2009",
+    title:
+      "Membro do Grupo de Estudos de Psicanálise de Ourinhos e região (GEPO)",
   },
   {
-    text: `Membro do Grupo de Estudos de Psicanálise de Ourinhos e região (GEPO) desde 2009 e coordenador desde 2020;`,
+    time: "2006 a 2010",
+    title: "Psicólogo Clínico",
+    description: "Formado pela UniFio.",
   },
   {
-    text: `Membro do Grupo de Estudos de Winnicott: Playground Psicanalítico - ministrado por Ricardo Telles de Deus [desde 2024], entre outros cursos de aprimoramento e extensão, e mais de 15 anos de experiência com análise pessoal;`,
+    time: "+15 anos de experiência",
+    title: "Experiência clínica e formação contínua",
+    description:
+      "Diversos cursos de aprimoramento e extensão, com mais de 15 anos de prática em análise pessoal.",
   },
-  {
-    text: `Além da prática clínica e estudos cotidianos que a fundamentam, e a experiência com supervisão a psicoterapeutas, dedica-se também à coordenação do GEPO como coordenador geral e também às suas respectivas atividades, bem como ministra dois Grupos de Estudos através desta instituição`,
-  }
 ];
