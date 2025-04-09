@@ -17,10 +17,10 @@ export function Section({
   return (
     <section
       {...props}
-      className={cn("text-white w-full grid place-content-center min-h-screen pt-20 pb-10 overflow-x-hidden", className)}
+      className={cn("text-white w-screen grid place-content-center min-h-screen px-2 lg:px-0 pt-20 pb-10 overflow-x-hidden", className)}
     >
       <motion.div
-        className="lg:container w-full h-full flex flex-col items-center justify-center gap-16"
+        className="lg:container w-full h-full flex flex-col items-center justify-center gap-4 lg:gap-16"
         transition={{ duration: 0.5, delay: 0.5 }}
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

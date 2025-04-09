@@ -6,9 +6,9 @@ import { Section } from "./ui/section";
 export function AboutSection() {
   return (
     <Section id="about" title="Helder Barbosa">
-      <div className="grid grid-cols-2 gap-16">
+      <div className="grid grid-rows-2 lg:grid-rows-1 grid-cols-1 xl:grid-cols-2 gap-4 lg:gap-16">
         <motion.div
-          className="flex items-center justify-center"
+          className="flex items-center justify-center mt-6 lg:mt-0"
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           exit={{ x: -100, opacity: 0 }}
@@ -21,7 +21,7 @@ export function AboutSection() {
         </motion.div>
 
         <motion.div
-          className="flex justify-center gap-8 flex-col"
+          className="flex justify-start lg:justify-center gap-8 flex-col mt-4 lg:mt-0 px-6 lg:px-0"
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           exit={{ x: 100, opacity: 0 }}
