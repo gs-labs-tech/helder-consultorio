@@ -18,9 +18,9 @@ export function ProfessionalBackgroundSection() {
               className="border border-white/10 shadow-sm text-white bg-card/10"
             >
               <Card.CardContent className="flex flex-col justify-center items-center gap-3 px-14">
-                <p className="text-center text-base h-12">{studyGroup.text}</p>
+                <p className="text-center text-sm h-12">{studyGroup.text}</p>
 
-                <Button className="w-fit" variant="secondary" asChild>
+                <Button className="w-fit hover:scale-110 duration-300 transition-all" variant="secondary" asChild>
                   <a
                     href={studyGroup.redirectUrl}
                     target="_blank"

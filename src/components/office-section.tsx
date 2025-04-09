@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "motion/react";
+
 import { Section } from "./ui/section";
 
 export function OfficeSection() {
@@ -5,7 +8,13 @@ export function OfficeSection() {
     <Section id="office" title="Consultório" className="bg-black">
       <div className="grid grid-cols-2 gap-16">
         <div className="flex justify-center items-center gap-8 flex-col">
-          <div className="w-[30rem] flex flex-col gap-8">
+          <motion.div
+            className="w-[30rem] flex flex-col gap-8"
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            exit={{ x: -100, opacity: 0 }}
+            transition={{ duration: 1, delay: 1.5 }}
+          >
             <p className="mt-2 text-base font-normal">
               Localizado na Av. Dr. Altino Arantes, 131 – sala 16 – Ed. J.J.
               Carvalho, na cidade de Ourinhos, SP | CEP 19900-030.
@@ -33,15 +42,21 @@ export function OfficeSection() {
               O consultório e sua acessibilidade foram pensados cuidadosamente
               para oferecer conforto e privacidade.
             </p>
-          </div>
+          </motion.div>
         </div>
 
-        <div className="flex justify-center items-center">
+        <motion.div
+          className="flex justify-center items-center"
+          initial={{ x: 100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          exit={{ x: 100, opacity: 0 }}
+          transition={{ duration: 1, delay: 1 }}
+        >
           <img
             src="/consultorio.jpg"
             className="w-[30rem] h-[30rem] object-cover rounded-lg"
           />
-        </div>
+        </motion.div>
       </div>
     </Section>
   );

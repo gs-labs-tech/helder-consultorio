@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "motion/react";
+
 import { Section } from "./ui/section";
 
 export function AppointmentsSection() {
@@ -8,7 +12,13 @@ export function AppointmentsSection() {
       className="bg-black"
     >
       <div className="w-full flex flex-col mb-14 mt-10 items-center justify-center text-white bg-no-repeat bg-cover bg-blend-color bg-opacity-50">
-        <div className="h-fit flex flex-col gap-10 items-center text-center">
+        <motion.div
+          className="h-fit flex flex-col gap-10 items-center text-center"
+          initial={{ y: 20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          exit={{ y: 20, opacity: 0 }}
+          transition={{ duration: 1, delay: 1 }}
+        >
           <h3 className="text-2xl font-semibold">
             Por que as pessoas procuram psicoterapia?
           </h3>
@@ -58,9 +68,15 @@ export function AppointmentsSection() {
               indispensável.
             </li>
           </ul>
-        </div>
+        </motion.div>
 
-        <div className="h-fit flex flex-col mt-10 gap-10 justify-center text-justify">
+        <motion.div
+          className="h-fit flex flex-col mt-10 gap-10 justify-center text-justify"
+          initial={{ y: 20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          exit={{ y: 20, opacity: 0 }}
+          transition={{ duration: 1, delay: 2 }}
+        >
           <h3 className="text-2xl font-semibold text-center">
             Como o trabalho acontece?
           </h3>
@@ -98,7 +114,7 @@ export function AppointmentsSection() {
             das palavras no momento exato que a transformação pode ocorrer –
             experimentem errar o tempo e a medida do amido de milho.
           </p>
-        </div>
+        </motion.div>
       </div>
     </Section>
   );
