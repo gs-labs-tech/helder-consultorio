@@ -13,7 +13,7 @@ export function AppointmentsSection() {
     >
       <div className="w-full flex flex-col mb-14 mt-10 items-center justify-center text-white bg-no-repeat bg-cover bg-blend-color bg-opacity-50">
         <motion.div
-          className="h-fit flex flex-col gap-10 items-center text-center"
+          className="h-fit flex flex-col gap-10 items-center text-center px-6 lg:p-0"
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           exit={{ y: 20, opacity: 0 }}
@@ -71,7 +71,7 @@ export function AppointmentsSection() {
         </motion.div>
 
         <motion.div
-          className="h-fit flex flex-col mt-10 gap-10 justify-center text-justify"
+          className="h-fit flex flex-col mt-10 gap-10 justify-center text-justify px-6 lg:p-0"
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           exit={{ y: 20, opacity: 0 }}
