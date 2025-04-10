@@ -1,17 +1,32 @@
+"use client"
+import { motion } from "motion/react";
+
 import { Section } from "./ui/section";
 
 export function AboutSection() {
   return (
     <Section id="about" title="Helder Barbosa">
-      <div className="grid grid-cols-2 gap-16">
-        <div className="flex items-center justify-center">
+      <div className="grid grid-rows-2 lg:grid-rows-1 grid-cols-1 xl:grid-cols-2 gap-4 lg:gap-16">
+        <motion.div
+          className="flex items-center justify-center mt-6 lg:mt-0"
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          exit={{ x: -100, opacity: 0 }}
+          transition={{ duration: 1, delay: 1 }}
+        >
           <img
             src="/helder.jpg"
             className="w-fit max-w-[30rem] h-[30rem] object-contain rounded-lg shadow-sm border border-border/80"
           />
-        </div>
+        </motion.div>
 
-        <div className="flex justify-center gap-8 flex-col">
+        <motion.div
+          className="flex justify-start lg:justify-center gap-8 flex-col mt-4 lg:mt-0 px-6 lg:px-0"
+          initial={{ x: 100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          exit={{ x: 100, opacity: 0 }}
+          transition={{ duration: 1, delay: 1.5 }}
+        >
           <p className="text-base font-normal">
             Psicólogo Clínico e Psicanalista dedicado à prática clínica com
             adolescentes e adultos nas modalidades presencial e online, desde
@@ -38,7 +53,7 @@ export function AboutSection() {
               CNPJ <strong>43.105.473/0001-66</strong>
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
     </Section>
   );

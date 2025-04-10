@@ -7,7 +7,7 @@ import { TestimonialsSection } from "@/components/testimonials-section";
 
 export default function Home() {
   return (
-    <main className="overflow-y-hidden">
+    <main className="overflow-hidden">
       <HomeSection />
       <AboutSection />
       <OfficeSection />

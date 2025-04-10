@@ -2,10 +2,12 @@
 
 import { testimonials } from "@/static/testimonials";
 import { AnimatedTestimonials } from "./ui/animated-testimonials";
+import { Section } from "./ui/section";
 
 export function TestimonialsSection() {
   return (
-    <section
+    <Section
+      title=""
       id="reccomendations"
       className="w-full flex flex-col items-center justify-center"
     >
@@ -25,6 +27,6 @@ export function TestimonialsSection() {
         </h2>
         <AnimatedTestimonials testimonials={testimonials.clients} />
       </div>
-    </section>
+    </Section>
   );
 }
