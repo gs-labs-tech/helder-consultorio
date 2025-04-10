@@ -1,4 +1,4 @@
-import "@fontsource-variable/roboto";
+import "@fontsource/gabriela";
 import "./globals.css";
 
 import { NavigationTopbar } from "@/components/navigation/topbar";
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-roboto antialiased bg-background`}>
+      <body className={`font-gabriela antialiased bg-background`}>
         <ScrollArea type="always" className="w-screen h-screen">
           <div className="flex flex-col font-sans text-sm">
             <NavigationTopbar />

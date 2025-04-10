@@ -52,7 +52,7 @@ export function OfficeSection() {
         >
           <img
             src="/consultorio.jpg"
-            className="w-[20rem] lg:w-[30rem] h-[20rem] lg:h-[30rem] object-cover rounded-lg"
+            className="w-[20rem] lg:w-[32rem] h-[20rem] lg:h-[32rem] object-cover rounded-lg"
           />
         </motion.div>
       </div>

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { motion } from "motion/react";
 
 import { Section } from "./ui/section";
@@ -6,7 +6,7 @@ import { Section } from "./ui/section";
 export function AboutSection() {
   return (
     <Section id="about" title="Helder Barbosa">
-      <div className="grid grid-rows-2 lg:grid-rows-1 grid-cols-1 xl:grid-cols-2 gap-4 lg:gap-16">
+      <div className="grid grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-16">
         <motion.div
           className="flex items-center justify-center mt-6 lg:mt-0"
           initial={{ x: -100, opacity: 0 }}
@@ -16,7 +16,7 @@ export function AboutSection() {
         >
           <img
             src="/helder.jpg"
-            className="w-fit max-w-[30rem] h-[30rem] object-contain rounded-lg shadow-sm border border-border/80"
+            className="w-[20rem] lg:w-[32rem] h-[20rem] lg:h-[32rem] object-contain rounded-lg shadow-sm border border-border/80"
           />
         </motion.div>
 
