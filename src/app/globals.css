@@ -99,12 +99,40 @@
   --sidebar-accent-foreground: oklch(0.21 0.006 285.885);
   --sidebar-border: oklch(0.92 0.004 286.32);
   --sidebar-ring: oklch(0.705 0.015 286.067);
+
+  --text-xs: 0.75rem;
+  /* 12px */
+  --text-sm: 1.2rem;
+  /* 14px */
+  --text-base: 1.5rem;
+  /* 16px */
+  --text-lg: 2rem;
+  /* 20px */
+  --text-xl: 2.5rem;
+  /* 24px */
+  --text-2xl: 3rem;
+  /* 32px */
+  --text-3xl: 4rem;
+  /* 40px */
+  --text-4xl: 5rem;
+  /* 48px */
+  --text-5xl: 8rem;
+  /* 64px */
+  --text-6xl: 10rem;
+  /* 80px */
+  --text-7xl: 12rem;
+  /* 96px */
+  --text-8xl: 16rem;
+  /* 128px */
+  --text-9xl: 20rem;
+  /* 160px */
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background/50 text-foreground;
   }
