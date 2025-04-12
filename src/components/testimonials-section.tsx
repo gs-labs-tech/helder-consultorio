@@ -18,7 +18,7 @@ export function TestimonialsSection() {
         <AnimatedTestimonials testimonials={testimonials.colleagues} />
 
         <h2 className="text-2xl font-bold text-center">
-          Recomendações de participantes de estudos e supervisões
+          Recomendações de participantes de Grupos de Estudos e Supervisões
         </h2>
         <AnimatedTestimonials testimonials={testimonials.students} />
 
