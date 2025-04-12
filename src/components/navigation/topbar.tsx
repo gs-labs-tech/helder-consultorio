@@ -1,9 +1,9 @@
 "use client";
 
-import { navigationLinks } from "./data";
+import { navigationLinks } from "@/static/navigation-links";
 import React, { ComponentProps } from "react";
 import { cn } from "@/lib/utils";
-import { Sidebar, SidebarTrigger } from "../sidebar";
+import { Sidebar, SidebarTrigger } from "./sidebar";
 
 export function NavigationTopbar() {
   const [open, setOpen] = React.useState<boolean>(false);
@@ -24,10 +24,7 @@ export function NavigationTopbar() {
       </div>
 
       <Sidebar open={open} onClose={() => setOpen(false)}>
-        <NavigationList
-          className="flex flex-col text-base"
-          onClick={handleOnClick}
-        />
+        <NavigationList className="flex flex-col" onClick={handleOnClick} />
       </Sidebar>
     </nav>
   );
