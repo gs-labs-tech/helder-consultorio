@@ -67,7 +67,7 @@ export const AnimatedTestimonials = ({
             <p className="text-sm text-foreground/50">
               {testimonials[active].designation}
             </p>
-            <motion.p className="mt-2 text-lg text-foreground h-fit py-2">
+            <motion.p className="mt-2 text-[1.8rem] text-foreground h-fit py-2">
               {testimonials[active].quote.split(" ").map((word, index) => (
                 <motion.span
                   key={index}
@@ -111,7 +111,7 @@ export const AnimatedTestimonials = ({
             </div>
 
             {/* Counter */}
-            <div className="text-lg">
+            <div className="text-[1.8rem]">
               {active + 1}/{testimonials.length}
             </div>
           </div>

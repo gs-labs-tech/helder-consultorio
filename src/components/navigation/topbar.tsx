@@ -1,8 +1,8 @@
 "use client";
 
+import { cn } from "@/lib/utils";
 import { navigationLinks } from "@/static/navigation-links";
 import React, { ComponentProps } from "react";
-import { cn } from "@/lib/utils";
 import { Sidebar, SidebarTrigger } from "./sidebar";
 
 export function NavigationTopbar() {
@@ -43,7 +43,7 @@ function NavigationList({ onClick, className, ...rest }: NavigationListProps) {
       {navigationLinks.map((link) => (
         <li key={link.sectionId}>
           <button
-            className="hover:border-b border-foreground transition-all ease-in-out duration-100"
+            className="hover:border-b border-foreground cursor-pointer transition-all ease-in-out duration-100"
             onClick={() => onClick(link.sectionId)}
           >
             {link.title}

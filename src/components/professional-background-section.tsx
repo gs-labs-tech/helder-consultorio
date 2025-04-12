@@ -16,7 +16,7 @@ export function ProfessionalBackgroundSection() {
   return (
     <Section id="professional-background" title="Formações e Dedicações">
       <div className="flex flex-col gap-4 px-8">
-        <span className="text-base text-justify">
+        <span className="text-[1.8rem] text-justify">
           Além da prática clínica e estudos cotidianos que a fundamentam, e a
           experiência com supervisão a psicoterapeutas, dedica-se também à
           coordenação do GEPO como coordenador geral e também às suas
