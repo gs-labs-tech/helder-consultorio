@@ -24,7 +24,10 @@ export function NavigationTopbar() {
       </div>
 
       <Sidebar open={open} onClose={() => setOpen(false)}>
-        <NavigationList className="flex flex-col" onClick={handleOnClick} />
+        <NavigationList
+          className="flex flex-col text-base"
+          onClick={handleOnClick}
+        />
       </Sidebar>
     </nav>
   );
