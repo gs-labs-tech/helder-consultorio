@@ -6,9 +6,9 @@ import { Section } from "./ui/section";
 export function AboutSection() {
   return (
     <Section id="about" title="Helder de Oliveira Barbosa">
-      <div className="grid grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-16">
+      <div className="grid grid-rows-[min-content_1fr] lg:grid-rows-1 grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-16">
         <motion.div
-          className="flex items-center justify-center mt-6 lg:mt-0"
+          className="flex items-center justify-center mt-6 lg:mt-0 "
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           exit={{ x: -100, opacity: 0 }}
