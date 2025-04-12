@@ -24,7 +24,7 @@ export const timelineProfessionalBackground: TimelineData[] = [
       "Realizado por Gina Tamburrino pelo Instituto Sedes Sapientiae (ISS).",
   },
   {
-    time: "Desde 2020",
+    time: "Desde 2009",
     title:
       "Coordenador do Grupo de Estudos de Psicanálise de Ourinhos e região (GEPO)",
     description: "Membro desde 2009 e coordenador desde 2021.",
@@ -43,7 +43,8 @@ export const timelineProfessionalBackground: TimelineData[] = [
   {
     time: "2006 a 2010",
     title: "Formação em Psicologia",
-    description: "Formado pela UniFio.",
+    description:
+      "Pelo Centro Universitário das Faculdades Integradas de Ourinhos (UniFIO)",
   },
   {
     time: "+15 anos de experiência",

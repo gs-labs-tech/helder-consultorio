@@ -1,5 +1,7 @@
 "use client";
+import { MailPlusIcon } from "lucide-react";
 import { motion } from "motion/react";
+import { WhatsAppIcon } from "./icons/whatsapp";
 
 export function HomeSection() {
   return (
@@ -12,7 +14,7 @@ export function HomeSection() {
       id="home"
     >
       <motion.h1
-        className="text-4xl font-bold tracking-wide w-full text-center"
+        className="text-2xl lg:text-4xl font-bold tracking-wide w-full text-center"
         initial={{ y: 20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         exit={{ y: -20, opacity: 0 }}
@@ -30,6 +32,32 @@ export function HomeSection() {
       >
         Psicólogo Clínico e Psicanalista
       </motion.span>
+
+      <motion.div
+        className="flex flex-col gap-2 mt-8"
+        initial={{ y: 20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        exit={{ y: -20, opacity: 0 }}
+        transition={{ duration: 0.5, delay: 1 }}
+      >
+        <a
+          className="flex flex-row items-center justify-center gap-2"
+          href="https://wa.me/5514996913467"
+        >
+          <WhatsAppIcon fill="#fff" width={25} height={25} />
+          <p className="text-base translate-y-1">
+            Entrar em contato pelo WhatsApp
+          </p>
+        </a>
+
+        <a
+          href="mailto:psicohelder@gmail.com"
+          className="flex flex-row items-center justify-center gap-2"
+        >
+          <MailPlusIcon size={25} />
+          <p className="text-base translate-y-1">Entrar em contato via email</p>
+        </a>
+      </motion.div>
     </motion.section>
   );
 }
