@@ -12,7 +12,7 @@ export function HomeSection() {
       id="home"
     >
       <motion.h1
-        className="text-[70px] font-bold tracking-wide w-full text-center"
+        className="text-4xl font-bold tracking-wide w-full text-center"
         initial={{ y: 20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         exit={{ y: -20, opacity: 0 }}
@@ -22,7 +22,7 @@ export function HomeSection() {
       </motion.h1>
 
       <motion.span
-        className="text-base tracking-tight w-full text-center"
+        className="text-xl tracking-tight w-full text-center"
         initial={{ y: 20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         exit={{ y: -20, opacity: 0 }}

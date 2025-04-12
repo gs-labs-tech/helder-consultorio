@@ -16,6 +16,14 @@ export function ProfessionalBackgroundSection() {
   return (
     <Section id="professional-background" title="Formações e Dedicações">
       <div className="flex flex-col gap-4 px-8">
+        <span className="text-base text-justify">
+          Além da prática clínica e estudos cotidianos que a fundamentam, e a
+          experiência com supervisão a psicoterapeutas, dedica-se também à
+          coordenação do GEPO como coordenador geral e também às suas
+          respectivas atividades, bem como ministra dois Grupos de Estudos
+          através desta instituição
+        </span>
+
         <motion.div
           className="mt-4 grid grid-cols-1 lg:grid-cols-2 grid-rows-2 lg:grid-rows-1 gap-6 lg:gap-4"
           initial={{ opacity: 0, y: 50 }}
@@ -53,14 +61,6 @@ export function ProfessionalBackgroundSection() {
         <div>
           <Timeline data={timelineProfessionalBackground} />
         </div>
-
-        <span className="text-base text-justify">
-          Além da prática clínica e estudos cotidianos que a fundamentam, e a
-          experiência com supervisão a psicoterapeutas, dedica-se também à
-          coordenação do GEPO como coordenador geral e também às suas
-          respectivas atividades, bem como ministra dois Grupos de Estudos
-          através desta instituição
-        </span>
       </div>
     </Section>
   );

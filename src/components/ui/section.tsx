@@ -19,7 +19,7 @@ export function Section({
       {...props}
       className={cn(
         "text-white w-screen grid place-content-center min-h-screen px-2 lg:px-0 pt-20 pb-10 overflow-x-hidden",
-        className,
+        className
       )}
     >
       <motion.div
@@ -31,7 +31,7 @@ export function Section({
       >
         {title && (
           <motion.h1
-            className="text-2xl lg:text-4xl text-center font-bold"
+            className="text-xl text-center font-bold"
             transition={{ duration: 0.5, delay: 0.5 }}
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}

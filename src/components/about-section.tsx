@@ -5,7 +5,7 @@ import { Section } from "./ui/section";
 
 export function AboutSection() {
   return (
-    <Section id="about" title="Helder Barbosa">
+    <Section id="about" title="Helder de Oliveira Barbosa">
       <div className="grid grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-16">
         <motion.div
           className="flex items-center justify-center mt-6 lg:mt-0"
@@ -27,31 +27,29 @@ export function AboutSection() {
           exit={{ x: 100, opacity: 0 }}
           transition={{ duration: 1, delay: 1.5 }}
         >
-          <p className="text-base font-normal">
-            Psicólogo Clínico e Psicanalista dedicado à prática clínica com
-            adolescentes e adultos nas modalidades presencial e online, desde
-            2011.
+          <p className="text-[1.8rem] font-normal">
+            Psicólogo Clínico e Psicanalista desde 2011 dedicado à prática
+            clínica com adolescentes e adultos nas modalidades presencial e
+            online.
           </p>
 
-          <p className="text-base font-normal">
+          <p className="text-[1.8rem] font-normal">
             Dedica-se também ao desenvolvimento de Grupos de Estudos e
             supervisões.
           </p>
 
-          <p className="text-base font-normal">
+          <p className="text-[1.8rem] font-normal">
             Suas formações são por instituições reconhecidas e prestigiadas pelo
             MEC, Federação Brasileira de Psicanálise (FEBRAPSI) e Movimento
             Articulação das Entidades Psicanalíticas.
           </p>
 
           <div>
-            <p className="text-lg font-normal">
-              Inscrição Profissional <strong>CRP-06/176171</strong>
+            <p className="text-[1.8rem] font-normal">
+              Inscrição Profissional CRP-06/176171
             </p>
 
-            <p className="text-lg font-normal">
-              CNPJ <strong>43.105.473/0001-66</strong>
-            </p>
+            <p className="text-[1.8rem] font-normal">CNPJ 43.105.473/0001-66</p>
           </div>
         </motion.div>
       </div>

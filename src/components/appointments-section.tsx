@@ -23,7 +23,7 @@ export function AppointmentsSection() {
             Por que as pessoas procuram psicoterapia?
           </h3>
 
-          <p className="text-base font-normal">
+          <p className="text-base font-normal text-justify">
             Como é de se deduzir: as pessoas procuram psicoterapia porque estão
             em sofrimento intenso (sintomas explícitos) e/ou estão muito
             insatisfeitas com a própria vida (crises existenciais). De forma
@@ -48,18 +48,15 @@ export function AppointmentsSection() {
               Sobre as crises existenciais, as observamos através de queixas de
               diminuição dos ânimos com a vida, os “tanto faz”, apáticos; não
               necessariamente os depressivos – esta queixa é comum em pessoas
-              que fazem apenas uso de medicamentos psiquiátricos por anos;
-              relatam que os medicamentos realmente diminuíram e/ou eliminaram o
-              sofrimento, porém, diminuiu também o ‘sabor da vida’. Estas
-              pessoas, sejam elas medicalizadas ou não, costumam buscar ajuda
-              para se reencontrarem consigo mesmas, procuram habitar o próprio
-              Ser. Estão em busca do que faz sentido para si próprio e não
-              apenas manterem-se ajustadas aos padrões. Isto pode parecer
-              simples, mas, na atualidade, muitas pessoas estão alienadas de si
-              próprias – tanto que, não é difícil observarmos, no dia-a-dia,
-              pessoas que sempre culpabilizam os outros por seu infortúnio;
-              nunca tem sua parcela de responsabilidade – e de fato não
-              conseguem reconhecer, pois, ‘não habitam o próprio Ser.’
+              que fazem apenas uso de medicamentos psiquiátricos (sem
+              acompanhamento psicoterapêutico) por anos; relatam que os
+              medicamentos realmente diminuíram e/ou eliminaram o sofrimento,
+              porém, diminuiu também o ‘sabor da vida’. Estas pessoas, sejam
+              elas medicalizadas ou não, costumam buscar ajuda para se
+              reencontrarem consigo mesmas, procuram habitar o próprio Ser.
+              Estão em busca do que faz sentido para si próprio e não apenas
+              manterem-se ajustadas aos padrões. Isto pode parecer simples, mas,
+              na atualidade, muitas pessoas estão alienadas de si próprias.’
             </li>
 
             <li className="text-base font-normal">
@@ -81,16 +78,16 @@ export function AppointmentsSection() {
             Como o trabalho acontece?
           </h3>
 
-          <p className="text-base font-normal">
+          <p className="text-base font-normal text-justify">
             De forma muito simples: conversando. E, claro, mantendo um bom
             relacionamento com empatia e sensibilidade.
           </p>
 
-          <p className="text-base font-normal flex flex-col justify-center gap-2">
-            <i className="mb-1 font-semibold">
+          <p className="text-base font-normal flex flex-col justify-center gap-2 text-justify">
+            <span className="mb-1 font-semibold">
               "Mas, apenas conversando? Posso conversar com um amigo, parente
               etc."
-            </i>
+            </span>
             É verdade, é possível conversar com muitas outras pessoas, porém,
             quando desabafamos, estas oferecem palpites e conselhos (que nem
             sempre seguem) e nossa vida não se transforma. Passamos anos e anos
@@ -100,7 +97,7 @@ export function AppointmentsSection() {
             uma conversa de análise).
           </p>
 
-          <p className="text-base font-normal">
+          <p className="text-base font-normal text-justify">
             Imaginem: uma criança na cozinha imita os mesmos movimentos de sua
             mãe que prepara o bolo. Manuseia farinha, fermento, cacau, morango,
             açúcar, água, etc. Se não estiver sob orientação, a criança faz

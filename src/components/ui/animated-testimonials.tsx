@@ -26,10 +26,6 @@ export const AnimatedTestimonials = ({
     setActive((prev) => (prev - 1 + testimonials.length) % testimonials.length);
   };
 
-  const isActive = (index: number) => {
-    return index === active;
-  };
-
   useEffect(() => {
     if (autoplay) {
       const interval = setInterval(handleNext, 5000);
@@ -98,19 +94,26 @@ export const AnimatedTestimonials = ({
             </motion.p>
           </motion.div>
 
-          <div className="flex gap-4 mt-4 items-center justify-start">
-            <button
-              onClick={handlePrev}
-              className="group/button flex h-7 w-7 cursor-pointer items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800"
-            >
-              <ArrowLeftIcon className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:rotate-12 dark:text-neutral-400" />
-            </button>
-            <button
-              onClick={handleNext}
-              className="group/button flex h-7 w-7 cursor-pointer items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800"
-            >
-              <ArrowRightIcon className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:-rotate-12 dark:text-neutral-400" />
-            </button>
+          <div className="flex gap-4 mt-4 items-center justify-between">
+            <div className="flex gap-4">
+              <button
+                onClick={handlePrev}
+                className="group/button flex h-7 w-7 cursor-pointer items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800"
+              >
+                <ArrowLeftIcon className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:rotate-12 dark:text-neutral-400" />
+              </button>
+              <button
+                onClick={handleNext}
+                className="group/button flex h-7 w-7 cursor-pointer items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800"
+              >
+                <ArrowRightIcon className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:-rotate-12 dark:text-neutral-400" />
+              </button>
+            </div>
+
+            {/* Counter */}
+            <div className="text-lg">
+              {active + 1}/{testimonials.length}
+            </div>
           </div>
         </div>
       </div>

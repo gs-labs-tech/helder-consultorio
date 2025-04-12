@@ -21,13 +21,13 @@ export const timelineProfessionalBackground: TimelineData[] = [
     time: "2023",
     title: "Curso 'Para além da Contratransferência: o analista implicado'",
     description:
-      "Realizado com Gina Tamburrino pelo Instituto Sedes Sapientiae (ISS).",
+      "Realizado por Gina Tamburrino pelo Instituto Sedes Sapientiae (ISS).",
   },
   {
     time: "Desde 2020",
     title:
       "Coordenador do Grupo de Estudos de Psicanálise de Ourinhos e região (GEPO)",
-    description: "Membro desde 2009.",
+    description: "Membro desde 2009 e coordenador desde 2021.",
   },
   {
     time: "2015 a 2019",
@@ -41,19 +41,14 @@ export const timelineProfessionalBackground: TimelineData[] = [
     description: "Pela Universidade Estadual de Londrina, PR (UEL).",
   },
   {
-    time: "Desde 2009",
-    title:
-      "Membro do Grupo de Estudos de Psicanálise de Ourinhos e região (GEPO)",
-  },
-  {
     time: "2006 a 2010",
-    title: "Psicólogo Clínico",
+    title: "Formação em Psicologia",
     description: "Formado pela UniFio.",
   },
   {
     time: "+15 anos de experiência",
     title: "Experiência clínica e formação contínua",
     description:
-      "Diversos cursos de aprimoramento e extensão, com mais de 15 anos de prática em análise pessoal.",
+      "Diversos cursos de aprimoramento e extensão, e experiências em análise pessoal.",
   },
 ];
