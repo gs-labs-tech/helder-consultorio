@@ -48,7 +48,6 @@ function Sidebar({ open, onClose, children }: SidebarProps) {
               className="flex flex-col justify-center fixed top-0 left-0 h-screen w-[75dvw] bg-background z-50 p-6 border-r border-card/10 shadow-lg"
             >
               {children}
-
               <SidebarClose onClick={onClose} />
             </motion.aside>
           </React.Fragment>
