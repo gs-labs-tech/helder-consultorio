@@ -37,7 +37,7 @@ export const timelineProfessionalBackground: TimelineData[] = [
   {
     time: "Desde 2009",
     title:
-      "Coordenador do Grupo de Estudos de Psicanálise de Ourinhos e região (GEPO)",
+      "Membro do Grupo de Estudos de Psicanálise de Ourinhos e região (GEPO)",
     description: "Membro desde 2009 e coordenador desde 2021.",
   },
   {
