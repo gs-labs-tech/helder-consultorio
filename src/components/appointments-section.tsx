@@ -11,9 +11,9 @@ export function AppointmentsSection() {
       title="Sobre os atendimentos"
       className="bg-black"
     >
-      <div className="w-full flex flex-col mb-14 mt-10 items-center justify-center text-white bg-no-repeat bg-cover bg-blend-color bg-opacity-50">
+      <div className="w-full flex flex-col items-center justify-center text-white bg-no-repeat bg-cover bg-blend-color bg-opacity-50">
         <motion.div
-          className="h-fit flex flex-col gap-10 items-center text-center px-6 lg:p-0"
+          className="h-fit flex flex-col gap-10 items-center text-center px-6 lg:p-10"
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           exit={{ y: 20, opacity: 0 }}
@@ -44,17 +44,15 @@ export function AppointmentsSection() {
             </li>
 
             <li className="text-[1.8rem] font-normal text-justify">
-              Sobre as crises existenciais, as observamos através de queixas de
-              diminuição dos ânimos com a vida, os “tanto faz”, apáticos; não
-              necessariamente os depressivos – esta queixa é comum em pessoas
-              que fazem apenas uso de medicamentos psiquiátricos (sem
-              acompanhamento psicoterapêutico) por anos; relatam que os
-              medicamentos realmente diminuíram e/ou eliminaram o sofrimento,
-              porém, diminuiu também o ‘sabor da vida’. Estas pessoas, sejam
-              elas medicalizadas ou não, costumam buscar ajuda para se
-              reencontrarem consigo mesmas, procuram habitar o próprio Ser.
-              Estão em busca do que faz sentido para si próprio e não apenas
-              manterem-se ajustadas aos padrões.’
+              Sobre as crises existenciais, as observamos através de queixas de diminuição dos
+              ânimos com a vida, os “tanto faz”, apáticos; não necessariamente os depressivos
+              – esta queixa é comum em pessoas que fazem apenas uso de medicamentos psiquiátricos
+              (sem acompanhamento psicoterapêutico) por anos; relatam que os medicamentos realmente
+              diminuíram e/ou eliminaram o sofrimento, porém, diminuiu também o ‘sabor da vida’.
+              Estas pessoas, sejam elas medicalizadas ou não, costumam buscar ajuda para se reencontrarem
+              consigo mesmas, procuram habitar o próprio Ser – aprendem a agradar aos outros, mas não conseguem
+              agradar a si mesmas. Estão em busca do que faz sentido para si próprio e não apenas manterem-se ajustadas
+              aos padrões. Isto pode parecer simples, mas, na atualidade (rápida, virtual), muitas pessoas estão alienadas de si próprias.
             </li>
 
             <li className="text-[1.8rem] font-normal text-justify">
@@ -66,7 +64,7 @@ export function AppointmentsSection() {
         </motion.div>
 
         <motion.div
-          className="h-fit flex flex-col mt-10 gap-10 justify-center text-justify px-6 lg:p-0"
+          className="h-fit flex flex-col mt-10 gap-10 justify-center text-justify px-6 lg:p-10"
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           exit={{ y: 20, opacity: 0 }}
