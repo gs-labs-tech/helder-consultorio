@@ -26,13 +26,12 @@ export function AppointmentsSection() {
           <p className="text-[1.8rem] font-normal text-justify">
             Como é de se deduzir: as pessoas procuram psicoterapia porque estão
             em sofrimento intenso (sintomas explícitos) e/ou estão muito
-            insatisfeitas com a própria vida (crises existenciais). De forma
-            genérica é possível expor um pouco desta motivações da seguinte
-            forma:
+            insatisfeitas com a própria vida (crises existenciais). De forma genérica
+            é possível expor um pouco destas motivações das seguintes formas:
           </p>
 
           <ul className="list-disc list-inside flex flex-col text-justify justify-center gap-8 w-full">
-            <li className="text-[1.8rem] font-normal">
+            <li className="text-[1.8rem] font-normal text-justify">
               A primeira (sintomas explícitos) é quando a condição está crítica.
               Estas pessoas se encontram em sofrimentos ou crises intensas que
               as paralisam e/ou as submetem a variadas limitações no viver
@@ -44,7 +43,7 @@ export function AppointmentsSection() {
               necessidades básicas da vida.
             </li>
 
-            <li className="text-[1.8rem] font-normal">
+            <li className="text-[1.8rem] font-normal text-justify">
               Sobre as crises existenciais, as observamos através de queixas de
               diminuição dos ânimos com a vida, os “tanto faz”, apáticos; não
               necessariamente os depressivos – esta queixa é comum em pessoas
@@ -55,11 +54,10 @@ export function AppointmentsSection() {
               elas medicalizadas ou não, costumam buscar ajuda para se
               reencontrarem consigo mesmas, procuram habitar o próprio Ser.
               Estão em busca do que faz sentido para si próprio e não apenas
-              manterem-se ajustadas aos padrões. Isto pode parecer simples, mas,
-              na atualidade, muitas pessoas estão alienadas de si próprias.’
+              manterem-se ajustadas aos padrões.’
             </li>
 
-            <li className="text-[1.8rem] font-normal">
+            <li className="text-[1.8rem] font-normal text-justify">
               Há também outro perfil de demandas: os que procuram psicoterapia
               como parte do processo de sua formação psicanalítica; que é
               indispensável.
@@ -107,9 +105,8 @@ export function AppointmentsSection() {
             podem até usar dos mesmos ingredientes/palavras do analista, porém,
             só fazem sujeira (e antes fosse fácil de limpar como os do bolo).
             Pois, não sabem ouvir tecnicamente, não conhecem a ‘alquimia’ que
-            transforma o psiquismo. Desconhecem o momento e a medida adequada
-            das palavras no momento exato que a transformação pode ocorrer –
-            experimentem errar o tempo e a medida do amido de milho.
+            transforma o psiquismo. Desconhecem o momento e a medida adequada das
+            palavras no momento exato em que a transformação pode ocorrer.
           </p>
         </motion.div>
       </div>
