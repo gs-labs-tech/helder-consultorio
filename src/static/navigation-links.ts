@@ -10,7 +10,7 @@ export const navigationLinks: NavigationLink[] = [
   },
   {
     sectionId: "#about",
-    title: "Sobre o profissional",
+    title: "Apresentação",
   },
   {
     sectionId: "#office",
@@ -18,7 +18,7 @@ export const navigationLinks: NavigationLink[] = [
   },
   {
     sectionId: "#professional-background",
-    title: "Formação",
+    title: "Formações",
   },
   {
     sectionId: "#appointments",
