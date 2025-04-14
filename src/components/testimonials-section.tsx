@@ -22,7 +22,7 @@ export function TestimonialsSection() {
             href="https://docs.google.com/forms/d/e/1FAIpQLSeN8omIVbYnmu275-RFfKJ8BnvOtvXM-RcJ1WNXntykfNVB8Q/viewform"
             target="_blank"
           >
-            É um colega da área? Deixe sua recomendação!
+            É colega da área? Deixe sua consideração
           </a>
         </div>
 
@@ -36,8 +36,7 @@ export function TestimonialsSection() {
             href="https://docs.google.com/forms/d/e/1FAIpQLSfRFc6rrO3-L7jPcHKxA7FBHh3gQhH7hZsKWnOXmjzZvsmOCw/viewform"
             target="_blank"
           >
-            É um participante de algum grupo de estudos ou supervisão? Deixe seu
-            comentário!
+            É participante de Grupo de Estudos ou Supervisão? Deixe suas considerações
           </a>
         </div>
 
@@ -51,7 +50,7 @@ export function TestimonialsSection() {
             href="https://docs.google.com/forms/d/e/1FAIpQLScS_uPFY8zXsQ7f1vf4fRokG6jhT9WJ7EmVxi0Rg7FcBje-KQ/viewform"
             target="_blank"
           >
-            É um paciente? Deixe seu comentário!
+            É paciente? Deixe seu comentário anonimamente
           </a>
         </div>
       </div>

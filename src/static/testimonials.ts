@@ -23,27 +23,27 @@ const clients = [
   {
     quote:
       "Parabéns por desempenhar um papel tão crucial. Você salva vidas, proporciona ajuda e guia para novas oportunidades. Sua crença em mim foi transformadora; hoje, sou uma pessoa melhor graças a isso.",
-    designation: "Cliente anônimo"
+
   },
   {
     quote:
       "Nada a sugerir, apenas agradecer pelos cuidados que deixou em mim. Muito obrigada.",
-    designation: "Cliente anônimo"
+
   },
   {
     quote:
       "Helder Barbosa é uma excelente pessoa, o que o torna um excelente profissional. E vice-versa.",
-    designation: "Cliente anônimo"
+
   },
   {
     quote:
       "Através da psicoterapia tenho menos dias nublados comigo mesma e tenho começado a criar a coragem de colocar meus limites.",
-    designation: "Cliente anônimo"
+
   },
   {
     quote:
       "Bom aqui fica o agradecimento por ser um profissional tão sensível e capacitado para lidar com as emoções e questões que muitas vezes são tão pertubadoras. Obrigada!!!",
-    designation: "Cliente anônimo"
+
   },
 ];
 

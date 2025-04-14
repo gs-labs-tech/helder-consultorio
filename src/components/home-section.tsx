@@ -1,5 +1,5 @@
 "use client";
-import { MailPlusIcon } from "lucide-react";
+import { MailPlusIcon, PhoneCallIcon } from "lucide-react";
 import { motion } from "motion/react";
 import { WhatsAppIcon } from "./icons/whatsapp";
 
@@ -44,9 +44,9 @@ export function HomeSection() {
           className="flex flex-row items-center justify-center gap-2"
           href="https://wa.me/5514996913467"
         >
-          <WhatsAppIcon fill="#fff" width={25} height={25} />
-          <p className="text-base translate-y-1">
-            Entrar em contato pelo WhatsApp
+          <WhatsAppIcon fill="#fff" width={21} height={21} />
+          <p className="text-md">
+            WhatsApp
           </p>
         </a>
 
@@ -54,9 +54,19 @@ export function HomeSection() {
           href="mailto:psicohelder@gmail.com"
           className="flex flex-row items-center justify-center gap-2"
         >
-          <MailPlusIcon size={25} />
-          <p className="text-base translate-y-1">Entrar em contato via email</p>
+          <MailPlusIcon size={21} />
+          <p className="text-md">psicohelder@gmail.com</p>
         </a>
+
+        <p
+          className="flex flex-row items-center justify-center gap-2 cursor-pointer"
+          onClick={() => {
+            navigator.clipboard.writeText("014996913467");
+          }}
+        >
+          <PhoneCallIcon size={21} />
+          <span className="text-md">014 9 9691-3467</span>
+        </p>
       </motion.div>
     </motion.section>
   );

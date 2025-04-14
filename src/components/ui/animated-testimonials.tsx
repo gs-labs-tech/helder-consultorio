@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 type Testimonial = {
   quote: string;
   name?: string;
-  designation: string;
+  designation?: string;
 };
 export const AnimatedTestimonials = ({
   testimonials,
@@ -33,9 +33,6 @@ export const AnimatedTestimonials = ({
     }
   }, [autoplay]);
 
-  const randomRotateY = () => {
-    return Math.floor(Math.random() * 21) - 10;
-  };
   return (
     <div className="mx-auto w-full py-4 font-sans antialiased md:max-w-4xl px-2">
       <div className="relative grid grid-cols-1 gap-20">
@@ -64,9 +61,13 @@ export const AnimatedTestimonials = ({
                 {testimonials[active].name}
               </h3>
             )}
-            <p className="text-sm text-foreground/50">
-              {testimonials[active].designation}
-            </p>
+
+            {testimonials[active].designation && (
+              <p className="text-sm text-foreground/50">
+                {testimonials[active].designation}
+              </p>
+            )}
+
             <motion.p className="mt-2 text-[1.8rem] text-foreground h-fit py-2">
               {testimonials[active].quote.split(" ").map((word, index) => (
                 <motion.span

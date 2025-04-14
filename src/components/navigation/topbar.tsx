@@ -2,9 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { navigationLinks } from "@/static/navigation-links";
-import { MailPlusIcon } from "lucide-react";
 import React, { ComponentProps } from "react";
-import { WhatsAppIcon } from "../icons/whatsapp";
 import { Sidebar, SidebarTrigger } from "./sidebar";
 
 export function NavigationTopbar() {
@@ -23,22 +21,6 @@ export function NavigationTopbar() {
 
       <div className="relative hidden md:flex flex-row justify-center items-center">
         <NavigationList onClick={handleOnClick} />
-
-        <div className="flex flex-row gap-3 absolute right-7">
-          <a
-            className="flex flex-row items-center justify-start gap-2"
-            href="https://wa.me/5514996913467"
-          >
-            <WhatsAppIcon fill="#fff" width={25} height={25} />
-          </a>
-
-          <a
-            href="mailto:psicohelder@gmail.com"
-            className="flex flex-row items-center justify-start gap-2"
-          >
-            <MailPlusIcon size={25} />
-          </a>
-        </div>
       </div>
 
       <Sidebar open={open} onClose={() => setOpen(false)}>
@@ -46,22 +28,6 @@ export function NavigationTopbar() {
           className="flex flex-col text-base"
           onClick={handleOnClick}
         />
-
-        <div className="flex flex-row gap-4 mt-12">
-          <a
-            className="flex flex-row items-center justify-start gap-2"
-            href="https://wa.me/5514996913467"
-          >
-            <WhatsAppIcon fill="#fff" width={25} height={25} />
-          </a>
-
-          <a
-            href="mailto:psicohelder@gmail.com"
-            className="flex flex-row items-center justify-start gap-2"
-          >
-            <MailPlusIcon size={25} />
-          </a>
-        </div>
       </Sidebar>
     </nav>
   );
@@ -73,7 +39,7 @@ interface NavigationListProps extends Omit<ComponentProps<"ul">, "onClick"> {
 
 function NavigationList({ onClick, className, ...rest }: NavigationListProps) {
   return (
-    <ul className={cn("flex gap-6", className)} {...rest}>
+    <ul className={cn("flex gap-6 text-[22px]", className)} {...rest}>
       {navigationLinks.map((link) => (
         <li key={link.sectionId}>
           <button
