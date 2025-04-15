@@ -9,7 +9,7 @@ export function AppointmentsSection() {
     <Section
       id="appointments"
       title="Sobre os atendimentos"
-      className="bg-black"
+      className="bg-gray-950"
     >
       <div className="w-full flex flex-col items-center justify-center text-white bg-no-repeat bg-cover bg-blend-color bg-opacity-50">
         <motion.div

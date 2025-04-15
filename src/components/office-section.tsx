@@ -5,7 +5,7 @@ import { Section } from "./ui/section";
 
 export function OfficeSection() {
   return (
-    <Section id="office" title="Consultório" className="bg-black">
+    <Section id="office" title="Consultório" className="bg-gray-950">
       <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-[min-content_1fr] lg:grid-rows-1 gap-8 lg:gap-16">
         <motion.div
           className="w-full lg:w-[30rem] flex flex-col gap-8 order-2 lg:order-1 justify-start lg:justify-center items-start lg:items-center px-4 lg:px-0"

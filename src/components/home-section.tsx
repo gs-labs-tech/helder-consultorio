@@ -6,7 +6,7 @@ import { WhatsAppIcon } from "./icons/whatsapp";
 export function HomeSection() {
   return (
     <motion.section
-      className="w-screen items-center justify-center text-white bg-[url(/consultorio-2.jpg)] min-h-screen bg-center bg-black/70 bg-no-repeat bg-cover bg-blend-color bg-opacity-50 border-b flex flex-col"
+      className="w-screen items-center justify-center text-white bg-[url(/consultorio-2.jpg)] min-h-screen bg-center bg-black/50 bg-no-repeat bg-cover bg-blend-color bg-opacity-50 border-b flex flex-col"
       transition={{ duration: 1 }}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}

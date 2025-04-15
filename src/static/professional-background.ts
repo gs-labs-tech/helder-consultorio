@@ -19,7 +19,7 @@ export const timelineProfessionalBackground: TimelineData[] = [
   },
   {
     time: "2023",
-    title: "Curso 'Para além da Contratransferência: o analista implicado'",
+    title: "Cursou 'Para além da Contratransferência: o analista implicado'",
     description:
       "Realizado por Gina Tamburrino pelo Instituto Sedes Sapientiae (ISS).",
   },

@@ -14,7 +14,7 @@ export function NavigationTopbar() {
   }
 
   return (
-    <nav className="py-4 z-50 px-2 border-b border-white/10 sticky backdrop-blur supports-[backdrop-filter]:bg-black/20 top-0 w-full">
+    <nav className="py-4 z-50 px-2 border-b border-white/10 sticky backdrop-blur supports-[backdrop-filter]:bg-gray-950/20 top-0 w-full">
       <div className="flex md:hidden">
         <SidebarTrigger onClick={() => setOpen(true)} className="ml-2" />
       </div>
