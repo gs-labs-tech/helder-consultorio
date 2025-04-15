@@ -23,15 +23,16 @@ export function AppointmentsSection() {
             Por que as pessoas procuram psicoterapia?
           </h3>
 
-          <p className="text-[1.8rem] font-normal text-justify">
+          <p className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
             Como é de se deduzir: as pessoas procuram psicoterapia porque estão
             em sofrimento intenso (sintomas explícitos) e/ou estão muito
-            insatisfeitas com a própria vida (crises existenciais). De forma genérica
-            é possível expor um pouco destas motivações das seguintes formas:
+            insatisfeitas com a própria vida (crises existenciais). De forma
+            genérica é possível expor um pouco destas motivações das seguintes
+            formas:
           </p>
 
           <ul className="list-disc list-inside flex flex-col text-justify justify-center gap-8 w-full">
-            <li className="text-[1.8rem] font-normal text-justify">
+            <li className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
               A primeira (sintomas explícitos) é quando a condição está crítica.
               Estas pessoas se encontram em sofrimentos ou crises intensas que
               as paralisam e/ou as submetem a variadas limitações no viver
@@ -43,19 +44,24 @@ export function AppointmentsSection() {
               necessidades básicas da vida.
             </li>
 
-            <li className="text-[1.8rem] font-normal text-justify">
-              Sobre as crises existenciais, as observamos através de queixas de diminuição dos
-              ânimos com a vida, os “tanto faz”, apáticos; não necessariamente os depressivos
-              – esta queixa é comum em pessoas que fazem apenas uso de medicamentos psiquiátricos
-              (sem acompanhamento psicoterapêutico) por anos; relatam que os medicamentos realmente
-              diminuíram e/ou eliminaram o sofrimento, porém, diminuiu também o ‘sabor da vida’.
-              Estas pessoas, sejam elas medicalizadas ou não, costumam buscar ajuda para se reencontrarem
-              consigo mesmas, procuram habitar o próprio Ser – aprendem a agradar aos outros, mas não conseguem
-              agradar a si mesmas. Estão em busca do que faz sentido para si próprio e não apenas manterem-se ajustadas
-              aos padrões. Isto pode parecer simples, mas, na atualidade (rápida, virtual), muitas pessoas estão alienadas de si próprias.
+            <li className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+              Sobre as crises existenciais, as observamos através de queixas de
+              diminuição dos ânimos com a vida, os “tanto faz”, apáticos; não
+              necessariamente os depressivos – esta queixa é comum em pessoas
+              que fazem apenas uso de medicamentos psiquiátricos (sem
+              acompanhamento psicoterapêutico) por anos; relatam que os
+              medicamentos realmente diminuíram e/ou eliminaram o sofrimento,
+              porém, diminuiu também o ‘sabor da vida’. Estas pessoas, sejam
+              elas medicalizadas ou não, costumam buscar ajuda para se
+              reencontrarem consigo mesmas, procuram habitar o próprio Ser –
+              aprendem a agradar aos outros, mas não conseguem agradar a si
+              mesmas. Estão em busca do que faz sentido para si próprio e não
+              apenas manterem-se ajustadas aos padrões. Isto pode parecer
+              simples, mas, na atualidade (rápida, virtual), muitas pessoas
+              estão alienadas de si próprias.
             </li>
 
-            <li className="text-[1.8rem] font-normal text-justify">
+            <li className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
               Há também outro perfil de demandas: os que procuram psicoterapia
               como parte do processo de sua formação psicanalítica; que é
               indispensável.
@@ -74,12 +80,12 @@ export function AppointmentsSection() {
             Como o trabalho acontece?
           </h3>
 
-          <p className="text-[1.8rem] font-normal text-justify">
+          <p className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
             De forma muito simples: conversando. E, claro, mantendo um bom
             relacionamento com empatia e sensibilidade.
           </p>
 
-          <p className="text-[1.8rem] font-normal flex flex-col justify-center gap-2 text-justify">
+          <p className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal flex flex-col justify-center gap-2 text-justify">
             <span className="mb-1 font-semibold">
               "Mas, apenas conversando? Posso conversar com um amigo, parente
               etc."
@@ -93,7 +99,7 @@ export function AppointmentsSection() {
             uma conversa de análise).
           </p>
 
-          <p className="text-[1.8rem] font-normal text-justify">
+          <p className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
             Imaginem: uma criança na cozinha imita os mesmos movimentos de sua
             mãe que prepara o bolo. Manuseia farinha, fermento, cacau, morango,
             açúcar, água, etc. Se não estiver sob orientação, a criança faz
@@ -103,8 +109,8 @@ export function AppointmentsSection() {
             podem até usar dos mesmos ingredientes/palavras do analista, porém,
             só fazem sujeira (e antes fosse fácil de limpar como os do bolo).
             Pois, não sabem ouvir tecnicamente, não conhecem a ‘alquimia’ que
-            transforma o psiquismo. Desconhecem o momento e a medida adequada das
-            palavras no momento exato em que a transformação pode ocorrer.
+            transforma o psiquismo. Desconhecem o momento e a medida adequada
+            das palavras no momento exato em que a transformação pode ocorrer.
           </p>
         </motion.div>
       </div>
