@@ -13,13 +13,13 @@ export function AppointmentsSection() {
     >
       <div className="w-full flex flex-col items-center justify-center text-white bg-no-repeat bg-cover bg-blend-color bg-opacity-50">
         <motion.div
-          className="h-fit flex flex-col gap-10 items-center text-center px-6 lg:p-10"
+          className="h-fit flex flex-col gap-6 items-center text-center px-6 lg:p-10"
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           exit={{ y: 20, opacity: 0 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          <h3 className="text-2xl font-semibold">
+          <h3 className="text-lg font-semibold">
             Por que as pessoas procuram psicoterapia?
           </h3>
 
@@ -76,7 +76,7 @@ export function AppointmentsSection() {
           exit={{ y: 20, opacity: 0 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          <h3 className="text-2xl font-semibold text-center">
+          <h3 className="text-lg font-semibold text-center">
             Como o trabalho acontece?
           </h3>
 

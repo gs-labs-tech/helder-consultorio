@@ -11,9 +11,9 @@ export function TestimonialsSection() {
       id="reccomendations"
       className="w-screen flex flex-col items-center justify-center"
     >
-      <div className="flex flex-col gap-20 pt-20 pb-10 px-6">
+      <div className="flex flex-col gap-2 pb-10 px-6">
         <div className="mt-20">
-          <h2 className="text-2xl font-bold text-center">
+          <h2 className="text-lg lg:text-xl font-bold text-center">
             Recomendações de colegas da área
           </h2>
           <AnimatedTestimonials testimonials={testimonials.colleagues} />
@@ -27,7 +27,7 @@ export function TestimonialsSection() {
         </div>
 
         <div className="mt-20">
-          <h2 className="text-[2.75rem] font-bold text-center">
+          <h2 className="text-lg lg:text-xl font-bold text-center">
             Comentários de participantes de Grupos de Estudos e Supervisões
           </h2>
           <AnimatedTestimonials testimonials={testimonials.students} />
@@ -41,7 +41,7 @@ export function TestimonialsSection() {
         </div>
 
         <div className="mt-20">
-          <h2 className="text-2xl font-bold text-center">
+          <h2 className="text-lg lg:text-xl font-bold text-center">
             Comentários de pacientes
           </h2>
           <AnimatedTestimonials testimonials={testimonials.clients} />
