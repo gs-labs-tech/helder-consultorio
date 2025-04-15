@@ -14,30 +14,30 @@ export function OfficeSection() {
           exit={{ x: -100, opacity: 0 }}
           transition={{ duration: 1, delay: 1.5 }}
         >
-          <p className="mt-2 sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+          <p className="mt-2 text-sm lg:text-base font-normal text-justify">
             Localizado na Av. Dr. Altino Arantes, 131 – sala 16 – Ed. J.J.
             Carvalho, na cidade de Ourinhos, SP | CEP 19900-030.
           </p>
 
-          <p className="mt-2 sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+          <p className="mt-2 text-sm lg:text-base font-normal text-justify">
             Espaço não compartilhado com outros profissionais e as vias de
             entrada e saída são distintas, garantindo a privacidade dos
             pacientes.
           </p>
 
-          <p className="mt-2 sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+          <p className="mt-2 text-sm lg:text-base font-normal text-justify">
             Os atendimentos online são realizados pela plataforma Google Meet
             com link de acesso exclusivo e realizados em computador utilizado
             exclusivamente no consultório.
           </p>
 
-          <p className="mt-2 sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+          <p className="mt-2 text-sm lg:text-base font-normal text-justify">
             Por se localizar na região central da cidade e haver dificuldades
             para estacionar, é disponibilizado a comodidade de uma vaga em
             estacionamento privado durante o período de atendimento.
           </p>
 
-          <p className="mt-2 sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+          <p className="mt-2 text-sm lg:text-base font-normal text-justify">
             O consultório e sua acessibilidade foram pensados cuidadosamente
             para oferecer conforto e privacidade.
           </p>

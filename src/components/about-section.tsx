@@ -27,29 +27,29 @@ export function AboutSection() {
           exit={{ x: 100, opacity: 0 }}
           transition={{ duration: 1, delay: 1.5 }}
         >
-          <p className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+          <p className="text-sm lg:text-base font-normal text-justify">
             Psicólogo Clínico e Psicanalista desde 2011 dedicado à prática
             clínica com adolescentes e adultos nas modalidades presencial e
             online.
           </p>
 
-          <p className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+          <p className="text-sm lg:text-base font-normal text-justify">
             Dedica-se também ao desenvolvimento de Grupos de Estudos e
             supervisões.
           </p>
 
-          <p className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+          <p className="text-sm lg:text-base font-normal text-justify">
             Suas formações são por instituições reconhecidas e prestigiadas pelo
             MEC, Federação Brasileira de Psicanálise (FEBRAPSI) e Movimento
             Articulação das Entidades Psicanalíticas.
           </p>
 
           <div>
-            <p className="text-base font-normal text-justify">
+            <p className="text-sm lg:text-base font-normal text-justify">
               Inscrição Profissional CRP-06/176171
             </p>
 
-            <p className="text-base font-normal text-justify">
+            <p className="text-sm lg:text-base font-normal text-justify">
               CNPJ 43.105.473/0001-66
             </p>
           </div>

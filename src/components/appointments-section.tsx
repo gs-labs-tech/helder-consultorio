@@ -23,7 +23,7 @@ export function AppointmentsSection() {
             Por que as pessoas procuram psicoterapia?
           </h3>
 
-          <p className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+          <p className="text-sm lg:text-base font-normal text-justify">
             Como é de se deduzir: as pessoas procuram psicoterapia porque estão
             em sofrimento intenso (sintomas explícitos) e/ou estão muito
             insatisfeitas com a própria vida (crises existenciais). De forma
@@ -32,7 +32,7 @@ export function AppointmentsSection() {
           </p>
 
           <ul className="list-disc list-inside flex flex-col text-justify justify-center gap-8 w-full">
-            <li className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+            <li className="text-sm lg:text-base font-normal text-justify">
               A primeira (sintomas explícitos) é quando a condição está crítica.
               Estas pessoas se encontram em sofrimentos ou crises intensas que
               as paralisam e/ou as submetem a variadas limitações no viver
@@ -44,7 +44,7 @@ export function AppointmentsSection() {
               necessidades básicas da vida.
             </li>
 
-            <li className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+            <li className="text-sm lg:text-base font-normal text-justify">
               Sobre as crises existenciais, as observamos através de queixas de
               diminuição dos ânimos com a vida, os “tanto faz”, apáticos; não
               necessariamente os depressivos – esta queixa é comum em pessoas
@@ -61,7 +61,7 @@ export function AppointmentsSection() {
               estão alienadas de si próprias.
             </li>
 
-            <li className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+            <li className="text-sm lg:text-base font-normal text-justify">
               Há também outro perfil de demandas: os que procuram psicoterapia
               como parte do processo de sua formação psicanalítica; que é
               indispensável.
@@ -80,12 +80,12 @@ export function AppointmentsSection() {
             Como o trabalho acontece?
           </h3>
 
-          <p className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+          <p className="text-sm lg:text-base font-normal text-justify">
             De forma muito simples: conversando. E, claro, mantendo um bom
             relacionamento com empatia e sensibilidade.
           </p>
 
-          <p className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal flex flex-col justify-center gap-2 text-justify">
+          <p className="text-sm lg:text-base font-normal flex flex-col justify-center gap-2 text-justify">
             <span className="mb-1 font-semibold">
               "Mas, apenas conversando? Posso conversar com um amigo, parente
               etc."
@@ -99,7 +99,7 @@ export function AppointmentsSection() {
             uma conversa de análise).
           </p>
 
-          <p className="sm:text-[1.4rem] lg:text-[1.6rem] font-normal text-justify">
+          <p className="text-sm lg:text-base font-normal text-justify">
             Imaginem: uma criança na cozinha imita os mesmos movimentos de sua
             mãe que prepara o bolo. Manuseia farinha, fermento, cacau, morango,
             açúcar, água, etc. Se não estiver sob orientação, a criança faz
