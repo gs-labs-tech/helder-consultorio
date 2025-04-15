@@ -28,7 +28,7 @@ export function TestimonialsSection() {
 
         <div className="mt-20">
           <h2 className="text-[2.75rem] font-bold text-center">
-            Recomendações de participantes de Grupos de Estudos e Supervisões
+            Comentários de participantes de Grupos de Estudos e Supervisões
           </h2>
           <AnimatedTestimonials testimonials={testimonials.students} />
           <a

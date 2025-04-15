@@ -18,7 +18,7 @@ const colleagues = [
     quote:
       "Por acompanhar de perto parte de sua trajetória na psicanálise, recomendo com confiança seu trabalho como analista",
     name: "Liliane Ribeiro Nicolau Beluche",
-    designation: "Psicóloga, Membro do GEPO"
+    designation: "Psicóloga, Especialista em Psicoterapia Psicanalítica pelo IBP Bauru, Membro do GEPO"
   },
   {
     quote: "Helder é muito bom analista, com formação consistente, envolvido com o trabalhoe com o constante aperfeiçoamentode sua prática. Além disso, é um clínico habilidoso, intuitivo, com estilo próprio e com boas qualidades para ajudar seus pacientes.",
@@ -27,13 +27,13 @@ const colleagues = [
   },
   {
     quote: "Sem arte não existe transformação! Profissional comprometido com o trabalho, ético e que exerce seu ofício com muita arte analítica!",
-    name: "Silvana Amaral",
-    designation: "Psicóloga e Psicanalista pela SBPSP, Vice-Diretora do GEP Marília"
+    name: "Silvana Maria F. N. do Amaral",
+    designation: "Psicóloga, Psicanalista pela SBPSP e compõe o Conselho Diretor do GEP Marília"
   },
   {
     quote: "Foi meu aluno na graduação de Psicologia, é excelente profissional, experiente, dedicado e estudioso. Encaminharia até um familiar meu seu atendimento.",
     name: "Eunice Belloti",
-    designation: "Psicóloga, Pedagoga e Mestre em Psicologia pela UNESP de Assis"
+    designation: "Psicóloga, Pedagoga, Mestre em Psicologia pela UNESP de Assis e Fundadora do GEPO"
   },
   {
     quote: "O Helder é um profissional comprometido com o trabalho, cuidadoso nas dimensões clínica e teórica da psicanálise. É um psicanalista de escuta ampla, presença implicada, ético e humano. Um colega que recomendo sem restrições.",
@@ -43,7 +43,7 @@ const colleagues = [
   {
     quote: "Conheço Helder pessoalmente e sou testemunha de sua seriedade e dedicação ao trabalho e aos estudos constantes que esse tipo de trabalho exige.",
     name: "Guilherme Alencar Lacombe",
-    designation: "Psiquiatra e Psicanalista pela SBPSP"
+    designation: "Psiquiatra pela UFRJ, Psicanalista pela SBPSP e Fundador do GEPO"
   },
   {
     designation: "Médica Psiquiatra",
@@ -83,28 +83,33 @@ const clients = [
 const students = [
   {
     quote:
-      "A atenção aos detalhes e os recursos inovadores transformaram completamente nosso fluxo de trabalho. Isso é exatamente o que estávamos procurando.",
-    designation: "Participante de estudos e supervisões anônimo"
+      "O Helder é um psicoterapeuta de orientação psicanalítica que tem contribuído muito no meu percurso profissional. Somos parceiros no Grupo de Estudos de Psicanálise de Ourinhos e Região; além disso, ele é meu supervisor e também coordena dois grupos de estudo dos quais participo. É uma pessoa ética, comprometida e sempre disponível para estudar e transmitir a teoria psicanalítica com responsabilidade e clareza.",
+    designation: "Participante de Grupos de Estudo e Supervisões",
+    name: "Liliane Ribeiro Nicolau Beluche"
   },
   {
     quote:
-      "A implementação foi tranquila e os resultados superaram nossas expectativas. A flexibilidade da plataforma é notável.",
-    designation: "Participante de estudos e supervisões anônimo"
+      "Domínio do conhecimento",
+    designation: "Participante de Grupos de Estudo e Supervisões",
+    name: "Mayra Pereira de Souza"
   },
   {
     quote:
-      "Esta solução melhorou significativamente a produtividade da nossa equipe. A interface intuitiva torna tarefas complexas simples.",
-    designation: "Participante de estudos e supervisões anônimo"
+      "O conhecimento técnico sobre psicanálise e sua ética",
+    designation: "Participante de Grupos de Estudo e Supervisões",
+    name: "Leticia Bonato"
   },
   {
     quote:
-      "Suporte excepcional e recursos robustos. É raro encontrar um produto que cumpra todas as suas promessas.",
-    designation: "Participante de estudos e supervisões anônimo"
+      "Pude conhecer o Helder e seu trabalho através do GEPO, por meio das atividades que ele ministra, como grupos de estudos e seminários clínicos. Tenho aprendido muito com os encontros que realizamos. Um profissional ético, sensível e com grande conhecimento teórico e técnico. Sou muito grata pelas trocas e aprendizados!",
+    designation: "Participante de Grupos de Estudo e Supervisões",
+    name: "Gabriela Oliveira"
   },
   {
     quote:
-      "A escalabilidade e o desempenho foram transformadores para nossa organização. Altamente recomendado para qualquer empresa em crescimento.",
-    designation: "Participante de estudos e supervisões anônimo"
+      "Procurei o Helder para ser meu supervisor clínico porque ele é alguém com um conhecimento teórico sólido, além de ser paciente, atencioso e ter uma didática muito clara. Todas essas qualidades fizeram muita diferença no meu aprendizado e na minha evolução clínica.",
+    designation: "Participante de Grupos de Estudo e Supervisões",
+    name: "Maria Padovan"
   },
 ];
 
