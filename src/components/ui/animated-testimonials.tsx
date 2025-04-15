@@ -68,7 +68,7 @@ export const AnimatedTestimonials = ({
               </p>
             )}
 
-            <motion.p className="mt-2 text-[1.8rem] text-foreground h-fit py-2">
+            <motion.p className="mt-2 text-[1.8rem] text-foreground h-fit py-2 text-justify">
               {testimonials[active].quote.split(" ").map((word, index) => (
                 <motion.span
                   key={index}
@@ -87,9 +87,9 @@ export const AnimatedTestimonials = ({
                     ease: "easeInOut",
                     delay: 0.02 * index,
                   }}
-                  className="inline-block"
+                  className="inline"
                 >
-                  {word}&nbsp;
+                  {word}{index !== testimonials[active].quote.split(" ").length - 1 ? " " : ""}
                 </motion.span>
               ))}
             </motion.p>
