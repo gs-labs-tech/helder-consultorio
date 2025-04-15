@@ -1,21 +1,54 @@
 const colleagues = [
   {
     quote:
-      "O cara é bom. Pode confiar.",
-    name: "Steve Jobs",
-    designation: "CEO na Apple"
+      "Helder é um analista muito comprometido com o trabalho clínico. É dedicado, muito estudioso e apresenta uma escuta sensível!",
+    name: "Gina Tamburrino",
+    designation: "Psicóloga e Psicanalista, Dra em Psicologia pela PUC-SP, Coordenadora Suplente do Curso Formação em Psicanálise do Instituto Sedes Sapientiae"
   },
   {
     quote:
-      "O bicho é bom memo. Diferenciado. Rapido virado na desgraça.",
-    name: "Bill Gates",
-    designation: "CEO na Microsoft"
+      `Desde que conheci o Helder, vejo sua trajetória como profissional da área da Psicologia e da Psicanálise,
+      seu envolvimento  e seriedade com os estudos que nossa profissão requer. Assim como também, a participação nas atividades
+      de ensino e divulgação de nosso conhecimento aos recém formados. Um outro aspecto que merece ser lembrado,
+      é o seu compromisso ético com a sua função de psicoterapeuta psicanalitico.`,
+    name: "Carmen Sílvia Mariotto Jubran",
+    designation: "Psicóloga pela UNESP Assis e Psicanalista pela SBPSP, Fundadora do GEPO"
   },
   {
     quote:
-      "Ele é diferentão. O cara é bom. Ajudou a decidir o nome do meu filho.",
-    name: "Elon Musk",
-    designation: "CEO na SpaceX"
+      "Por acompanhar de perto parte de sua trajetória na psicanálise, recomendo com confiança seu trabalho como analista",
+    name: "Liliane Ribeiro Nicolau Beluche",
+    designation: "Psicóloga, Membro do GEPO"
+  },
+  {
+    quote: "Helder é muito bom analista, com formação consistente, envolvido com o trabalhoe com o constante aperfeiçoamentode sua prática. Além disso, é um clínico habilidoso, intuitivo, com estilo próprio e com boas qualidades para ajudar seus pacientes.",
+    name: "Bruno Medici Silveira",
+    designation: "Psicólogo pela USP e Psicanalista pelo Instituto Sedes Sapientiae, Mestre em Psicologia pela USP"
+  },
+  {
+    quote: "Sem arte não existe transformação! Profissional comprometido com o trabalho, ético e que exerce seu ofício com muita arte analítica!",
+    name: "Silvana Amaral",
+    designation: "Psicóloga e Psicanalista pela SBPSP, Vice-Diretora do GEP Marília"
+  },
+  {
+    quote: "Foi meu aluno na graduação de Psicologia, é excelente profissional, experiente, dedicado e estudioso. Encaminharia até um familiar meu seu atendimento.",
+    name: "Eunice Belloti",
+    designation: "Psicóloga, Pedagoga e Mestre em Psicologia pela UNESP de Assis"
+  },
+  {
+    quote: "O Helder é um profissional comprometido com o trabalho, cuidadoso nas dimensões clínica e teórica da psicanálise. É um psicanalista de escuta ampla, presença implicada, ético e humano. Um colega que recomendo sem restrições.",
+    name: "Caueh Perrella",
+    designation: "Psicanalista e Docente no Instituto Sedes Sapientiae"
+  },
+  {
+    quote: "Conheço Helder pessoalmente e sou testemunha de sua seriedade e dedicação ao trabalho e aos estudos constantes que esse tipo de trabalho exige.",
+    name: "Guilherme Alencar Lacombe",
+    designation: "Psiquiatra e Psicanalista pela SBPSP"
+  },
+  {
+    designation: "Médica Psiquiatra",
+    name: "Ana Terezinha Oliveira Lacombe",
+    quote: "Sua seriedade no trabalho e dedicação e preocupação com o estudo do humano e do seu sofrimento que é a razão de ser fundamental do nosso trabalho"
   }
 ];
 
