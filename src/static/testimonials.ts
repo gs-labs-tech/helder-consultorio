@@ -46,7 +46,7 @@ const colleagues = [
     designation: "Psiquiatra pela UFRJ, Psicanalista pela SBPSP e Fundador do GEPO"
   },
   {
-    designation: "Médica Psiquiatra",
+    designation: "Psiquiatra pela UFRJ, membro da Associação Brasileira de Neurologia e Psiquiatria Infantil e Formação em Psicoterapia Psicanalítica pelo Núcleo de Psicanálise de Marília e Região",
     name: "Ana Terezinha Oliveira Lacombe",
     quote: "Sua seriedade no trabalho e dedicação e preocupação com o estudo do humano e do seu sofrimento que é a razão de ser fundamental do nosso trabalho"
   }
