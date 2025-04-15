@@ -31,7 +31,7 @@ function Sidebar({ open, onClose, children }: SidebarProps) {
         {open && (
           <React.Fragment>
             <motion.div
-              className="fixed inset-0 bg-black/50 h-screen z-40"
+              className="fixed inset-0 bg-gray-950/50 h-screen z-40"
               initial="closed"
               animate="open"
               exit="closed"
