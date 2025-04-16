@@ -92,7 +92,27 @@ const clients = [
   {
     quote:
       "A necessidade de um profissional que conseguisse me ver, além do que as aparências mostram. E me confrontar-se comigo mesmo, fazendo eu me reconhecer e conseguir me livrar de armadilhas e mecanismos de fuga que eu criei.",
-  }
+  },
+  {
+    quote:
+      "Parabéns por desempenhar um papel tão crucial. Você salva vidas, proporciona ajuda e guia para novas oportunidades. Sua crença em mim foi transformadora; hoje, sou uma pessoa melhor graças a isso.",
+  },
+  {
+    quote:
+      "Nada a sugerir, apenas agradecer pelos cuidados que deixou em mim. Muito obrigada.",
+  },
+  {
+    quote:
+      "Helder Barbosa é uma excelente pessoa, o que o torna um excelente profissional. E vice-versa.",
+  },
+  {
+    quote:
+      "Através da psicoterapia tenho menos dias nublados comigo mesma e tenho começado a criar a coragem de colocar meus limites.",
+  },
+  {
+    quote:
+      "Bom aqui fica o agradecimento por ser um profissional tão sensível e capacitado para lidar com as emoções e questões que muitas vezes são tão pertubadoras. Obrigada!!!",
+  },
 ];
 
 const students = [
