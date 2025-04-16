@@ -55,29 +55,44 @@ const colleagues = [
 const clients = [
   {
     quote:
-      "Parabéns por desempenhar um papel tão crucial. Você salva vidas, proporciona ajuda e guia para novas oportunidades. Sua crença em mim foi transformadora; hoje, sou uma pessoa melhor graças a isso.",
+      "A indicação ocorreu da minha ex psicanalista que foi traçar outros caminhos e desde 2017 estou fazendo psicanálise com esse profissional excelente, inteligentíssimo, muito acolhedor e empático e assim coopera para minha evolução, autoconfiança e autoconhecimento.",
 
   },
   {
     quote:
-      "Nada a sugerir, apenas agradecer pelos cuidados que deixou em mim. Muito obrigada.",
+      "Foi através de seu trabalho como psicanalista que senti pela primeira vez um sincero acolhimento, como um bom ouvinte, sem pré-julgamentos e uma capacidade imensa de acreditar no meu potencial mais do que eu mesma.",
 
   },
   {
     quote:
-      "Helder Barbosa é uma excelente pessoa, o que o torna um excelente profissional. E vice-versa.",
+      "Estava precisando de ajuda e encontrei na pessoa dele ,muito apoio ,me ajudou muito,um excelente profissional",
 
   },
   {
     quote:
-      "Através da psicoterapia tenho menos dias nublados comigo mesma e tenho começado a criar a coragem de colocar meus limites.",
+      "Sou muito grata por todo o apoio que o Helder vem proporcionando ao longo da minha jornada de análise. Sua escuta sensível, a abordagem humana e a forma ética com que conduz o trabalho fazem toda a diferença. Penso que esses são elementos fundamentais que me auxiliaram a enfrentar diversos processos, ainda que doloridos, de forma mais leve.",
 
   },
   {
     quote:
-      "Bom aqui fica o agradecimento por ser um profissional tão sensível e capacitado para lidar com as emoções e questões que muitas vezes são tão pertubadoras. Obrigada!!!",
-
+      "O trabalho profissional e técnico, recomendo. Foi bem recomendado e faço minhas recomendações. A saúde emocional requer bons profissionais.",
   },
+  {
+    quote:
+      "Hélder é um ser humano ímpar e um profissional incrível. O seu trabalho reúne acolhimento, cuidado e compromisso ético. Recomendo a todos aqueles que buscam acompanhamento psicológico pela abordagem psicanalítica.",
+  },
+  {
+    quote:
+      "Procurei o Dr. Helder por indicação da Dra. Roberta psiquiatra. Desde quando iniciei o tratamento com o Dr. Helder, confesso que minha vida melhorou muito com as terapias. Dr. Helder é um excelente profissional da área da psicologia, onde tenho ido semanalmente e recomendo a todas as pessoas que são indicadas ou não por um psiquiatra.",
+  },
+  {
+    quote:
+      "Iniciei a psicoterapia com o Helder para “solucionar” dificuldades momentâneas… Encorajado a cada sessão, pude navegar cada vez mais em busca do meu autoconhecimento. Anos se passaram e, podendo contar com o Helder e seu infinito repertório na “materialização do subjetivo”, sinto-me cada vez mais preparado para ir além — sempre além — do que um dia imaginei ser impossível.",
+  },
+  {
+    quote:
+      "A necessidade de um profissional que conseguisse me ver, além do que as aparências mostram. E me confrontar-se comigo mesmo, fazendo eu me reconhecer e conseguir me livrar de armadilhas e mecanismos de fuga que eu criei.",
+  }
 ];
 
 const students = [
