@@ -57,7 +57,7 @@ export const AnimatedTestimonials = ({
             }}
           >
             {testimonials[active].name && (
-              <h3 className="text-lg font-bold text-foreground/80">
+              <h3 className="text-[2rem] font-bold text-foreground/80">
                 {testimonials[active].name}
               </h3>
             )}
