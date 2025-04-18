@@ -19,9 +19,8 @@ export function ProfessionalBackgroundSection() {
         <span className="text-sm lg:text-base text-justify">
           Além da prática clínica e estudos cotidianos que a fundamentam, e a
           experiência com supervisão a psicoterapeutas, dedica-se também à
-          coordenação do GEPO como coordenador geral e também às suas
-          respectivas atividades, bem como ministra dois Grupos de Estudos
-          através desta instituição
+          coordenação do GEPO e também às suas respectivas atividades, bem como
+          ministra dois Grupos de Estudos através desta instituição
         </span>
 
         <motion.div

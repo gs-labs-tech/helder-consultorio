@@ -102,7 +102,7 @@ export function AppointmentsSection() {
           <p className="text-sm lg:text-base font-normal text-justify">
             Imaginem: uma criança na cozinha imita os mesmos movimentos de sua
             mãe que prepara o bolo. Manuseia farinha, fermento, cacau, morango,
-            açúcar, água, etc. Se não estiver sob orientação, a criança faz
+            açúcar, água, etc. Se não estiver sob orientação a criança faz
             apenas sujeira com os ingredientes. A mãe os transforma num bolo,
             pois, domina a ‘alquimia’ - as medidas e o tempo adequado para a
             transformação. Os palpiteiros e conselheiros são como essa criança,
