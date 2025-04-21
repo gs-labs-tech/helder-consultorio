@@ -57,9 +57,9 @@ export const AnimatedTestimonials = ({
             }}
           >
             {testimonials[active].name && (
-              <h3 className="text-[1.8rem] font-bold text-foreground/80">
+              <h2 className="text-[1.8rem] font-bold text-foreground/80">
                 {testimonials[active].name}
-              </h3>
+              </h2>
             )}
 
             {testimonials[active].designation && (
@@ -110,7 +110,7 @@ export const AnimatedTestimonials = ({
 
               <button
                 onClick={handleNext}
-                arial-label="Go to next testimonial"
+                aria-label="Go to next testimonial"
                 className="group/button flex h-7 w-7 cursor-pointer items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800"
               >
                 <ArrowRightIcon className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:-rotate-12 dark:text-neutral-400" />

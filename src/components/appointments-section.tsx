@@ -19,9 +19,9 @@ export function AppointmentsSection() {
           exit={{ y: 20, opacity: 0 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          <h3 className="text-lg font-semibold">
+          <h2 className="text-lg font-semibold">
             Por que as pessoas procuram psicoterapia?
-          </h3>
+          </h2>
 
           <p className="text-sm lg:text-base font-normal text-justify">
             Como é de se deduzir: as pessoas procuram psicoterapia porque estão
@@ -76,9 +76,9 @@ export function AppointmentsSection() {
           exit={{ y: 20, opacity: 0 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          <h3 className="text-lg font-semibold text-center">
+          <h2 className="text-lg font-semibold text-center">
             Como o trabalho acontece?
-          </h3>
+          </h2>
 
           <p className="text-sm lg:text-base font-normal text-justify">
             De forma muito simples: conversando. E, claro, mantendo um bom
