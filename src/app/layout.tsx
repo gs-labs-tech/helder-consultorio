@@ -10,7 +10,8 @@ export const metadata: Metadata = {
   title: "Psicólogo Helder Barbosa",
   description: "Psicólogo Clínico e Psicanalista",
   openGraph: {
-    siteName: "Helder Barbosa",
+    siteName: "Psicólogo Helder Barbosa",
+    title: "Psicólogo Helder Barbosa",
     type: "website",
     locale: "pt_BR",
     url: "https://helderbarbosa.com.br/",

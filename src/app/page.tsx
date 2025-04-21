@@ -45,7 +45,8 @@ export const metadata: Metadata = {
   openGraph: {
     url: "https://helderbarbosa.com.br/",
     type: "website",
-    title: "Helder Barbosa",
+    title: "Psicólogo Helder Barbosa",
+    siteName: "Psicólogo Helder Barbosa",
     description: "Psicólogo Clínico e Psicanalista",
   },
   appleWebApp: {
