@@ -9,6 +9,12 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Psicólogo Helder Barbosa",
   description: "Psicólogo Clínico e Psicanalista",
+  openGraph: {
+    siteName: "Helder Barbosa",
+    type: "website",
+    locale: "pt_BR",
+    url: "https://helderbarbosa.com.br/",
+  },
 };
 
 const gabriola = localFont({
