@@ -35,9 +35,9 @@ export function Timeline({ data }: TimelineProps) {
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             {item.time}
           </time>
-          <h3 className="text-sm lg:text-base font-semibold text-white">
+          <p className="text-sm lg:text-base font-semibold text-white">
             {item.title}
-          </h3>
+          </p>
 
           {item.description && (
             <p className="text-sm lg:text-base font-normal text-gray-300">

@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Helder Barbosa",
+  title: "Psicólogo Helder Barbosa",
   description: "Psicólogo Clínico e Psicanalista",
 };
 
@@ -17,9 +17,9 @@ const gabriola = localFont({
       path: "./fonts/gabriola.ttf",
       weight: "400",
       style: "normal",
-    }
-  ]
-})
+    },
+  ],
+});
 
 export default function RootLayout({
   children,
@@ -28,6 +28,30 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="preload"
+          fetchPriority="high"
+          as="image"
+          href="/consultorio.webp"
+          type="image/webp"
+        ></link>
+        <link
+          rel="preload"
+          fetchPriority="high"
+          as="image"
+          href="/consultorio-2.webp"
+          type="image/webp"
+        ></link>
+        <link
+          rel="preload"
+          fetchPriority="high"
+          as="image"
+          href="/helder.webp"
+          type="image/webp"
+        ></link>
+      </head>
+
       <body className={cn(gabriola.className, `antialiased bg-background`)}>
         <ScrollArea type="always" className="w-screen h-screen">
           <div className="flex flex-col font-sans text-sm">
