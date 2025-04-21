@@ -46,6 +46,7 @@ export const metadata: Metadata = {
     url: "https://helderbarbosa.com.br/",
     type: "website",
     title: "Psicólogo Helder Barbosa",
+    siteName: "Psicólogo Helder Barbosa",
     description: "Psicólogo Clínico e Psicanalista",
   },
   appleWebApp: {
