@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "motion/react";
 
+import Image from "next/image";
 import { Section } from "./ui/section";
 
 export function AboutSection() {
@@ -14,8 +15,11 @@ export function AboutSection() {
           exit={{ x: -100, opacity: 0 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          <img
-            src="/helder.jpg"
+          <Image
+            width={2296}
+            height={2297}
+            src="/helder.webp"
+            alt="Psicólogo Helder em pé, encostado na estante de livros de seu consultório, vestindo uma camisa de botão branca com mangas longas, calças beges e sapato marrom. As mãos dele estão nos bolsos da calça e a manga longa está dobrada até o cotovelo. Possui um relógio prata em seu pulso."
             className="w-[20rem] lg:w-[32rem] h-[20rem] lg:h-[32rem] object-contain rounded-lg shadow-sm border border-border/80"
           />
         </motion.div>

@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "motion/react";
+import Image from "next/image";
 
 import { Section } from "./ui/section";
 
@@ -50,8 +51,11 @@ export function OfficeSection() {
           exit={{ x: 100, opacity: 0 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          <img
-            src="/consultorio.jpg"
+          <Image
+            width={3072}
+            height={3072}
+            src="/consultorio.webp"
+            alt="Consultório onde os atendimentos acontecem. Sala branca, com três sofás marrons, uma mesa com livros em cima, e uma estante cheia de livros."
             className="w-[20rem] lg:w-[32rem] h-[20rem] lg:h-[32rem] object-cover rounded-lg"
           />
         </motion.div>
