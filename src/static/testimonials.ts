@@ -110,6 +110,12 @@ const clients = [
       "A necessidade de um profissional que conseguisse me ver, além do que as aparências mostram. E me confrontar-se comigo mesmo, fazendo eu me reconhecer e conseguir me livrar de armadilhas e mecanismos de fuga que eu criei.",
   },
   {
+    quote: "O Helder oferece um ambiente onde o lúdico se mistura com o onírico, e a filosofia das coisas surgem na suavizes das conversas e diálogos. As sessões traduzem desfechos no emaranhado de confusões internas, os nós se desatam e o horizonte se torna mais claro e compreensível. Eu dizia, amedrontado, “não sou eu quem me navega”, hoje, sinto o peso do leme nas mãos cortando as águas, o sal e o intangível, timoneiro de mim, mesmo que não haja caminhos no oceano."
+  },
+  {
+    quote: "Eu procurei o Helder para o teste vocacional, com o termino desse teste iniciamos as seções de terapia. Isso ja vai fazer 10 anos… e posso falar com propriedade a respeito do seu trabalho! Um pessoa extremamente ética, responsável. Uma pessoa que sempre recomendo para amigos que estão procurando um profissional.",
+  },
+  {
     quote:
       "Parabéns por desempenhar um papel tão crucial. Você salva vidas, proporciona ajuda e guia para novas oportunidades. Sua crença em mim foi transformadora; hoje, sou uma pessoa melhor graças a isso.",
   },

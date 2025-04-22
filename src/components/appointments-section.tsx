@@ -107,7 +107,7 @@ export function AppointmentsSection() {
             pois, domina a ‘alquimia’ - as medidas e o tempo adequado para a
             transformação. Os palpiteiros e conselheiros são como essa criança,
             podem até usar dos mesmos ingredientes/palavras do analista, porém,
-            só fazem sujeira (e antes fosse fácil de limpar como os do bolo).
+            só fazem sujeira (e antes fosse fácil de limpar como a do bolo).
             Pois, não sabem ouvir tecnicamente, não conhecem a ‘alquimia’ que
             transforma o psiquismo. Desconhecem o momento e a medida adequada
             das palavras no momento exato em que a transformação pode ocorrer.
