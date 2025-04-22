@@ -16,6 +16,13 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     url: "https://helderbarbosa.com.br/",
   },
+  icons: {
+    icon: "/favicon.ico", // Esse caminho vai buscar no /public
+  },
+  metadataBase: new URL("https://helderbarbosa.com.br"),
+  alternates: {
+    canonical: "/",
+  },
 };
 
 const gabriola = localFont({
