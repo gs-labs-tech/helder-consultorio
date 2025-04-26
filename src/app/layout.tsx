@@ -8,13 +8,21 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Psicólogo Helder Barbosa",
-  description: "Psicólogo Clínico e Psicanalista",
+  description: "Psicólogo Clínico e Psicanalista em Ourinhos - São Paulo",
   openGraph: {
     siteName: "Psicólogo Helder Barbosa",
     title: "Psicólogo Helder Barbosa",
     type: "website",
     locale: "pt_BR",
     url: "https://helderbarbosa.com.br/",
+    images: [
+      {
+        url: "https://helderbarbosa.com.br/consultorio-2.webp", // coloque essa imagem no public/og-image.webp
+        width: 3177,
+        height: 1786,
+        alt: "Consultório do Psicólogo Helder Barbosa",
+      },
+    ],
   },
   icons: {
     icon: "/favicon.ico", // Esse caminho vai buscar no /public
@@ -41,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <link
           rel="preload"
