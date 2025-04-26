@@ -61,11 +61,19 @@ export const metadata: Metadata = {
     "Psicanalista brasileiro com formação no Sedes em ourinhos",
   ],
   openGraph: {
-    url: "https://helderbarbosa.com.br/",
-    type: "website",
-    title: "Psicólogo Helder Barbosa",
     siteName: "Psicólogo Helder Barbosa",
-    description: "Psicólogo Clínico e Psicanalista",
+    title: "Psicólogo Helder Barbosa",
+    type: "website",
+    locale: "pt_BR",
+    url: "https://helderbarbosa.com.br/",
+    images: [
+      {
+        url: "https://helderbarbosa.com.br/consultorio-2.webp",
+        width: 3177,
+        height: 1786,
+        alt: "Consultório do Psicólogo Helder Barbosa",
+      },
+    ],
   },
   appleWebApp: {
     title: "https://helderbarbosa.com.br/",
