@@ -4,8 +4,8 @@ import { HomeSection } from "@/components/home-section";
 import { OfficeSection } from "@/components/office-section";
 import { ProfessionalBackgroundSection } from "@/components/professional-background-section";
 import { TestimonialsSection } from "@/components/testimonials-section";
-import { Metadata } from "next";
 import { ContactMenu } from "@/components/ui/contact-menu";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Psicólogo Helder Barbosa",
@@ -18,6 +18,12 @@ export const metadata: Metadata = {
     "Psicanalista",
     "Analista",
     "Clinica",
+    "Helder Barbosa Psicólogo brasileiro homem",
+    "Helder Barbosa Psicanalista brasileiro homem",
+    "Helder Barbosa Psicanalista brasileiro freudiano",
+    "Helder Barbosa Psicanalista brasileiro kleiniano",
+    "Helder Barbosa Psicanalista brasileiro winnicottiano",
+    "Helder Barbosa Psicanalista brasileiro com formação no Sedes",
     "Clínico",
     "Psicólogo clínico",
     "Helder barbosa psicólogo",
@@ -41,6 +47,18 @@ export const metadata: Metadata = {
     "Psicólogo em ourinhos são paulo",
     "Psicanalista em ourinhos",
     "Psicanalista em ourinhos são paulo",
+    "Psicanalista freudiano em ourinhos",
+    "Psicanalista freudiano em ourinhos são paulo",
+    "Psicanalista kleiniano em ourinhos",
+    "Psicanalista kleiniano em ourinhos são paulo",
+    "Psicanalista winnicottiano em ourinhos",
+    "Psicanalista winnicottiano em ourinhos são paulo",
+    "Psicanalista com formação no Sedes em ourinhos",
+    "Psicanalista com formação no Sedes em ourinhos são paulo",
+    "Psicanalista brasileiro freudiano em ourinhos",
+    "Psicanalista brasileiro kleiniano em ourinhos",
+    "Psicanalista brasileiro winnicottiano em ourinhos",
+    "Psicanalista brasileiro com formação no Sedes em ourinhos",
   ],
   openGraph: {
     url: "https://helderbarbosa.com.br/",
