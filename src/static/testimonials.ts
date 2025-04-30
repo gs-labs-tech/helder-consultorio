@@ -75,6 +75,10 @@ const colleagues = [
 const clients = [
   {
     quote:
+      "Tenho a felicidade de ser paciente do Helder há mais de 10 anos. Ele é um profissional extremamente inteligente, dedicado, ético e profissional. Sua escuta atenta e sua seriedade no trabalho fizeram toda a diferença na minha trajetória pessoal. Recomendo de coração a quem busca um acompanhamento profundo e respeitoso.",
+  },
+  {
+    quote:
       "A indicação ocorreu da minha ex psicanalista que foi traçar outros caminhos e desde 2017 estou fazendo psicanálise com esse profissional excelente, inteligentíssimo, muito acolhedor e empático e assim coopera para minha evolução, autoconfiança e autoconhecimento.",
   },
   {
@@ -110,10 +114,12 @@ const clients = [
       "A necessidade de um profissional que conseguisse me ver, além do que as aparências mostram. E me confrontar-se comigo mesmo, fazendo eu me reconhecer e conseguir me livrar de armadilhas e mecanismos de fuga que eu criei.",
   },
   {
-    quote: "O Helder oferece um ambiente onde o lúdico se mistura com o onírico, e a filosofia das coisas surgem na suavizes das conversas e diálogos. As sessões traduzem desfechos no emaranhado de confusões internas, os nós se desatam e o horizonte se torna mais claro e compreensível. Eu dizia, amedrontado, “não sou eu quem me navega”, hoje, sinto o peso do leme nas mãos cortando as águas, o sal e o intangível, timoneiro de mim, mesmo que não haja caminhos no oceano."
+    quote:
+      "O Helder oferece um ambiente onde o lúdico se mistura com o onírico, e a filosofia das coisas surgem na suavizes das conversas e diálogos. As sessões traduzem desfechos no emaranhado de confusões internas, os nós se desatam e o horizonte se torna mais claro e compreensível. Eu dizia, amedrontado, “não sou eu quem me navega”, hoje, sinto o peso do leme nas mãos cortando as águas, o sal e o intangível, timoneiro de mim, mesmo que não haja caminhos no oceano.",
   },
   {
-    quote: "Eu procurei o Helder para o teste vocacional, com o termino desse teste iniciamos as seções de terapia. Isso ja vai fazer 10 anos… e posso falar com propriedade a respeito do seu trabalho! Um pessoa extremamente ética, responsável. Uma pessoa que sempre recomendo para amigos que estão procurando um profissional.",
+    quote:
+      "Eu procurei o Helder para o teste vocacional, com o termino desse teste iniciamos as seções de terapia. Isso ja vai fazer 10 anos… e posso falar com propriedade a respeito do seu trabalho! Um pessoa extremamente ética, responsável. Uma pessoa que sempre recomendo para amigos que estão procurando um profissional.",
   },
   {
     quote:
