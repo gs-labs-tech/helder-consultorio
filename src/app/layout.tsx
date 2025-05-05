@@ -7,11 +7,11 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Psicólogo Helder Barbosa",
+  title: "Helder Barbosa | Psicólogo Clínico e Psicanalista",
   description: "Psicólogo Clínico e Psicanalista em Ourinhos - São Paulo",
   openGraph: {
-    siteName: "Psicólogo Helder Barbosa",
-    title: "Psicólogo Helder Barbosa",
+    siteName: "Helder Barbosa | Psicólogo Clínico e Psicanalista",
+    title: "Helder Barbosa | Psicólogo Clínico e Psicanalista",
     type: "website",
     locale: "pt_BR",
     url: "https://helderbarbosa.com.br/",

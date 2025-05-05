@@ -78,6 +78,9 @@ const clients = [
       "Tenho a felicidade de ser paciente do Helder há mais de 10 anos. Ele é um profissional extremamente inteligente, dedicado, ético e profissional. Sua escuta atenta e sua seriedade no trabalho fizeram toda a diferença na minha trajetória pessoal. Recomendo de coração a quem busca um acompanhamento profundo e respeitoso.",
   },
   {
+    quote: "Fiz terapia por muitos anos com o Hélder, sempre muito profissional , ético e atencioso, o lugar muito aconchegante, já sentia paz ao chegar na sala de espera, sempre era surpreendido pelas analogias que ele fazia simplificando e trazendo muito sentido para meu autoconhecimento, sou muito grato a ele por me ajudar a encontrar um novo caminho, recomendo a todos."
+  },
+  {
     quote:
       "A indicação ocorreu da minha ex psicanalista que foi traçar outros caminhos e desde 2017 estou fazendo psicanálise com esse profissional excelente, inteligentíssimo, muito acolhedor e empático e assim coopera para minha evolução, autoconfiança e autoconhecimento.",
   },

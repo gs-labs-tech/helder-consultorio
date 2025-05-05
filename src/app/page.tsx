@@ -8,7 +8,7 @@ import { ContactMenu } from "@/components/ui/contact-menu";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Psicólogo Helder Barbosa",
+  title: "Helder Barbosa | Psicólogo Clínico e Psicanalista",
   description: "Psicólogo Clínico e Psicanalista",
   keywords: [
     "Helder",
@@ -65,8 +65,8 @@ export const metadata: Metadata = {
     "Psicanalista brasileiro com formação no Sedes em ourinhos",
   ],
   openGraph: {
-    siteName: "Psicólogo Helder Barbosa",
-    title: "Psicólogo Helder Barbosa",
+    siteName: "Helder Barbosa | Psicólogo Clínico e Psicanalista",
+    title: "Helder Barbosa | Psicólogo Clínico e Psicanalista",
     type: "website",
     locale: "pt_BR",
     url: "https://helderbarbosa.com.br/",
