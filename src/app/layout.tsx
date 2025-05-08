@@ -5,6 +5,7 @@ import { NavigationTopbar } from "@/components/navigation/topbar";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Helder Barbosa | Psicólogo Clínico e Psicanalista",
@@ -72,6 +73,23 @@ export default function RootLayout({
           href="/helder.webp"
           type="image/webp"
         ></link>
+        <Script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_AD_ID}`}
+        />
+        <Script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.GOOGLE_AD_ID}');
+          `}
+        </Script>
+        <Script>
+          {`
+            gtag('event', 'conversion', {'send_to': ${process.env.GOOGLE_AD_ID}/${process.env.GOOGLE_AD_SEND_TO_ID} });
+          `}
+        </Script>
       </head>
 
       <body className={cn(gabriola.className, `antialiased bg-background`)}>
