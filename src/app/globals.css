@@ -50,6 +50,8 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
+  --color-gray-950: var(--gray-950);
+
   /* Fonts */
   --font-roboto: "Roboto Variable", sans-serif;
   --font-roboto-mono: "Roboto Mono", monospace;
@@ -64,7 +66,6 @@
 :root {
   --radius: 0.3rem;
 
-  /* --background: oklch(0.2412 0.0222 158.26 / 94.54%); */
   --background: oklch(0.3039 0.0224 111.3);
   --foreground: oklch(94.2 0.003 0);
 
@@ -127,6 +128,8 @@
   /* 128px */
   --text-9xl: 20rem;
   /* 160px */
+
+  --gray-950: #171713;
 }
 
 @layer base {
