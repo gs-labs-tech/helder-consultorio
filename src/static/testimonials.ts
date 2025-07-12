@@ -75,6 +75,10 @@ const colleagues = [
 const clients = [
   {
     quote:
+      "Recebi a indicação do Helder por uma parente que é psicoterapeuta, há quase um ano. Desde então, passei por fases bastante desafiadoras, e o Helder me acompanhou em todos esses processos com muita empatia, seriedade e um acolhimento genuíno. Sou muito grato por esse cuidado e por todo o apoio que recebi ao longo desse tempo.",
+  },
+  {
+    quote:
       "Tenho a felicidade de ser paciente do Helder há mais de 10 anos. Ele é um profissional extremamente inteligente, dedicado, ético e profissional. Sua escuta atenta e sua seriedade no trabalho fizeram toda a diferença na minha trajetória pessoal. Recomendo de coração a quem busca um acompanhamento profundo e respeitoso.",
   },
   {
@@ -156,10 +160,6 @@ const clients = [
   {
     quote:
       "Cheguei ao Helder como alguém que chega procurando respostas para tudo. Durante os 6 anos de terapia, ele me ofereceu mais do que eu poderia esperar: atendimento de qualidade, sempre disposto a ouvir e me auxiliar a ouvir o que eu mesmo estava falando, caminhando comigo para que, após muito tempo, eu voltasse a caminhar por mim mesmo novamente. Eu poderia encher aqui de elogios, mas a única coisa que eu posso falar é: se existe um profissional como ele, eu desconheço. Ele é O melhor",
-  },
-  {
-    quote:
-      "Recebi a indicação do Helder por uma parente que é psicoterapeuta, há quase um ano. Desde então, passei por fases bastante desafiadoras, e o Helder me acompanhou em todos esses processos com muita empatia, seriedade e um acolhimento genuíno. Sou muito grato por esse cuidado e por todo o apoio que recebi ao longo desse tempo.",
   },
 ];
 
